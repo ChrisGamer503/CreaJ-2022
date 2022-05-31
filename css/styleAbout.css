@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya&family=Open+Sans:wght@700&display=swap');
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 20px;
+}  
+
+
+.healthyabout{
+    padding: 70px;
+    display: flex;
+    align-items: center;
+}
+
+.about{
+    flex-wrap: wrap;
+}
+
+.bodyhealthy{
+    padding-top: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display:block;
+    text-align: justify;
+}
+
+.bodyhealthy2{
+    padding-top: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: block;
+    text-align: justify;
+}
+
+.tittlehealthy{
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Alegreya', serif;
+    font-size: 40px;
+    color: #3B4754;
+    display: block;
+}
+
+.textabout{
+    width: 55%;
+    height: auto;
+    align-items: center;
+    flex: 1;
+    padding-right: 30px;
+}
+
+.imgabout{
+    display:flex;
+    flex: 2;
+}
+
