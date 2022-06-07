@@ -1,0 +1,70 @@
+footer{
+    background-color: black;
+    color: white;
+}
+
+.footer{
+    display: flex;
+    padding: 4%;
+    justify-content: center;
+    align-items: center;
+}
+
+.seccion1,.seccion2, .seccion3{
+    padding: 0% 2%;
+    justify-content: center;
+    justify-self: center;
+
+}
+
+.seccion1{
+    width: 25%;
+    text-align: center;
+}
+
+.seccion2{
+    width: 50%;
+    text-align: center;
+    border: #FFFFFF solid 1px;
+    border-top: none;
+    border-bottom: none;
+}
+
+.seccion3{
+    width: 25%;
+    text-align: center;
+}
+
+.imgfooter{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+}
+
+.imgsfooter{
+    padding-top: 6%;
+    width: 20%;
+}
+
+.titlefooter{
+    font-weight: bold;
+    padding: 2% 0%;
+}
+
+.bodyfooter{
+    padding: 1.5% 0%;
+}
+
+.reference{
+    font-size: 14px;
+    text-align: center;
+}
+
+.reference a{
+    font-size: 14px;
+}
+
+.creditos .reference{
+    padding-bottom: 2%;
+}

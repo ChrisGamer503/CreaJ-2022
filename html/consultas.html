@@ -5,28 +5,32 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Healthy House</title>
+    <link rel="icon" type="image/png" href="../multimedia/imagenes/favicon.ico">
     <link rel="stylesheet" href="../css/menu.css">
+    <link rel="stylesheet" href="../css/styleQueries.css">
+    <link rel="stylesheet" href="../css/footer.css">
 </head>
 <body>
     <header>
         <div class="togglemenu" id="togglemenu">
             <img src="../multimedia/imagenes/hamburger.png">
         </div>
-        <div class="main-menu" id="main-menu">
+        
         <div class="logo">
         <a href="../html/index.html"><img src="../multimedia/imagenes/logo.png" class="logo" height="70px"></a>
+        <a href="../html/index.html"><p class="textlogo">Healthy House</p></a>
         <!--<p>Healthy House</p> -->
         </div>
-        <nav>
+        <nav class="main-menu" id="main-menu">
             <ul class="menu" id="menu">
                 <li class="nosotros"><a href="../html/nosotros.html">Nosotros</a></li>
                 <li class="enfermedades"><a href="../html/enfermedades.html">Enfermedades</a></li>
                 <li class="contacto"><a href="../html/contactanos.html">Contactanos</a></li>
                 <li class="consultas"><a href="../html/consultas.html">Consultas</a></li>
                 <li>
-                    <div>
-                        <button class="sesion">Iniciar Sesion</button>
-                        <button class="sesion">Registrarse</button>
+                    <div class="botones-sesion">
+                        <button class="sesion2"><a href="../html/Inicio2.html">Iniciar Sesion</a></button>
+                        <button class="sesion"><a href="../html/inicio.html">Registrarse</a></button>
                     </div>
                 </li>
                 <li>
@@ -50,9 +54,132 @@
                 </li>
             </ul>
         </nav>
-        </div>
     </header>
 
+    <div class="queries">
+        <div class="colorqueries">
+            <div class="boxconsultas">
+                <div class="textconsultas">
+                    <div class="tittle">
+                        <p class="tittleconsultas">Consultas con los especialistas</p>
+                    </div>
+                    <div>
+                        <p class="txtconsultas">Podrás hacer una cita con diferentes especialistas médicos de acuerdo a tus preguntas o inconvenientes que tengas</p>
+                    </div>
+                </div>
 
+                <div class="imgconsultas">
+                    <img src="../multimedia/imagenes/noimg.jpg" alt="">
+                </div>
+            </div>
+
+            <div class="positionespecialista">
+            <div class="boxespecialistas">
+                <div class="botones">
+                    <input type="radio" name="medicos" id="medico-general" onclick="detectClick(this)" checked>
+                    <label for="medico-general">Medico General</label>
+            
+                    <input type="radio" name="medicos" id="pediatra" onclick="detectClick(this)" >
+                    <label for="pediatra">Pediatra</label>
+            
+                    <input type="radio" name="medicos" id="gastroenterologo" onclick="detectClick(this)">
+                    <label for="gastroenterologo">Gastroenterólogo</label>
+            
+                    <input type="radio" name="medicos" id="ortopeda" onclick="detectClick(this)">
+                    <label for="ortopeda">Ortopeda</label>
+            
+                    <input type="radio" name="medicos" id="psiquiatra" onclick="detectClick(this)">
+                    <label for="psiquiatra">Psiquiatra</label>
+            
+                    <input type="radio" name="medicos" id="alergologo" onclick="detectClick(this)">
+                    <label for="alergologo">Alergólogo</label>
+                </div>
+
+
+                <div class="showtext">
+                    <div class="medico-general">
+                        <p class="titletext">Medico General</p>
+                            <p class="bodytext">Los médicos generales o de medicina familiar son médicos que se especializan en la atención médica integral de la persona y de la familia. Después de estudiar medicina durante cuatro años, realizan un programa de residencia adicional de tres años.                          
+                            </p>
+                            <p class="bodytext">Los médicos de medicina familiar pueden diagnosticar y tratar una variedad de afecciones de salud y enfermedades en hombres y mujeres de todas las edades. Podrían seguir especializándose en otra área de la medicina, como la atención de los adultos mayores (geriatría) o las personas que tienen lesiones deportivas (medicina deportiva).</p>
+                    </div>
+                
+                    
+                    <div class="pediatra">
+                        <p class=" tittletext">Pediatra</p>
+                    </div>
+
+                
+                    
+                    <div class="gastroenterologo">
+                        <p class=" tittletext">Gastroenterólogo</p>
+                    </div>
+
+                
+                    
+                    <div class="ortopeda">
+                        <p class=" tittletext">Ortopeda</p>
+                    </div>
+
+                
+                    
+                    <div class="psiquiatra">
+                        <p class=" tittletext">Psiquiatra</p>
+                    </div>
+
+                
+                    
+                    <div class="alergologo">
+                        <p class=" tittletext">Alergólogo</p>
+                    </div>
+
+                </div>
+            </div>
+
+
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+    <footer>
+        <div class="footer">
+            <div class="seccion1">
+                <p class="titlefooter">Dirección</p>
+                <p class="bodyfooter">Soyapango, El Salvador</p>
+                <p class="bodyfooter">San Salvador, El Salvador</p>
+            </div>
+            <div class="seccion2">
+                <p class="titlefooter">Correo</p>
+                <p class="bodyfooter">HealthyHouse@gmail.com</p>
+                <p class="titlefooter">Telefono</p>
+                <p>(+503) 7007-5136</p>
+            </div>
+            <div class="seccion3">
+                <div class="textfooter">
+                    <p class="titlefooter">Redes sociales</p>
+                </div>
+
+                <div class="imgfooter">
+                    <img src="../multimedia/imagenes/facebook.png" alt="" class="imgsfooter">
+                    <img src="../multimedia/imagenes/instagram.png" alt="" class="imgsfooter">
+                    <img src="../multimedia/imagenes/twitter.png" alt="" class="imgsfooter">
+                </div>
+            </div>
+        </div>
+
+        <div class="creditos">
+            <p class="reference">Imagenes gracias a: <a href="https://www.freepik.es" target="_blank">Freepik</a></p>
+        </div>
+    </footer>
+    <script src="../js/consultas.js"></script>
     <script src="../js/index.js"></script>
 </body>

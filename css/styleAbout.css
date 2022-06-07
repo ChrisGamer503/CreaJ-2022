@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Alegreya&family=Open+Sans:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee&display=swap');
 
 *{
     margin:0;
@@ -9,9 +10,10 @@
 
 
 .healthyabout{
-    padding: 70px;
-    display: flex;
+    padding: 0px 30px;
     align-items: center;
+    flex-wrap: wrap;
+    background-color: #FF6C6C;
 }
 
 .about{
@@ -23,6 +25,9 @@
     font-family: Georgia, 'Times New Roman', Times, serif;
     display:block;
     text-align: justify;
+    color: white;
+    padding: 1em 3em;
+    font-size: 30px;
 }
 
 .bodyhealthy2{
@@ -30,28 +35,240 @@
     font-family: Georgia, 'Times New Roman', Times, serif;
     display: block;
     text-align: justify;
+    color: white;
+    margin-bottom: 20%;
+    padding: 0em 3em;
+    font-size: 30px;
 }
 
 .tittlehealthy{
     text-align: center;
     font-weight: bold;
     font-family: 'Alegreya', serif;
-    font-size: 40px;
-    color: #3B4754;
+    font-size: 70px;
+    color: white;
     display: block;
 }
 
 .textabout{
-    width: 55%;
     height: auto;
     align-items: center;
     flex: 1;
-    padding-right: 30px;
+    padding: 30px;
+    border-width: 5px;
+}
+
+hr{
+    display: block;
 }
 
 .imgabout{
-    display:flex;
-    flex: 2;
+    height: auto;
+    width: 45%;
+    flex-wrap: wrap;
+    padding: 60px;
+    margin-top: -320px;
 }
 
+
+.imgabout img{
+    padding: 25px;
+    height: auto;
+    width: 100%;
+    background: white;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    margin-left: 400px;
+}
+
+@media screen and (max-width:768px) {
+    .imgabout{
+        height: auto;
+        width: 80%;
+        flex-wrap: wrap;
+    }
+    .imgabout img{
+        padding: 25px;
+        height: auto;
+        width: 100%;
+        }
+}
+
+/* CSS Mision y Vision */
+
+.boxmv{
+    border-style: solid;
+    border-left: none;
+    border-right: none;
+    border-width: 1px;
+    border-color: #D6D6D6;
+    padding: 5% 10%;
+    flex-wrap: wrap;
+}
+
+.tittlemv{
+    font-weight: bolder;
+    font-size: 40px;
+    font-family: 'ABeeZee', sans-serif;
+    padding-bottom: 15px;
+}
+
+.textmv{
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-bottom: 60px;
+    text-align: justify;
+}
+
+
+.colorabout{
+    background-color: white;
+}
+
+/* CSS DE VALORES */
+
+.boxvalores{
+    border-style: solid;
+    border-left: none;
+    border-right: none;
+    border-width: 1px;
+    border-color: #D6D6D6;
+    padding: 5% 10%;
+    flex-wrap: wrap;
+}
+
+.tittlevalores{
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    font-size: 35px;
+    padding-bottom: 30px;
+}
+
+.valores{
+    display: inline-block;
+    align-content:space-around;
+    padding: 1%;
+    margin: 1%;
+    border: black solid;
+    background-color: #D4E3FC;
+    width: 165px;
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.valores1{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 3%;
+    
+}
+
+.valores2{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.boxobjetivos{
+    border-style: solid;
+    border-left: none;
+    border-right: none;
+    border-width: 1px;
+    border-color: #D6D6D6;
+    padding: 1% 10%;
+    flex-wrap: wrap;
+    display: flex;
+    align-items: center;
+}
+
+.textobjs{
+    width: 65%;
+}
+
+.posimgobjs{
+    width: 35%;
+}
+
+.tittleobjetivos{
+    font-size: 35px;
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+    font-weight: bold;
+    color: #3B4754;
+}
+
+.tittleobjsgeneral{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    padding-bottom: 2%;
+}
+
+.objsgeneralcontrol{
+    display: flex;
+    align-items: center;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 17px;
+    padding-bottom: 2%;
+}
+
+.txtobjsgeneral{
+    padding-left: 1%;
+}
+
+.number{
+    border: #9FAFC1 solid;
+    border-radius: 60px;
+    background-color: #9FAFC1;
+    padding: 1% 2%;
+}
+
+.tittleobjsespecifico{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    padding-bottom: 2%;
+}
+
+.objsespecificocontrol{
+    display: flex;
+    align-items: center;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 17px;
+    padding-bottom: 2%;
+}
+
+.objsespecificocontrol2{
+    display: flex;
+    align-items: center;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 17px;
+    padding-bottom: 2%;
+}
+
+.txtobjsespecificos{
+    padding-left: 1%;
+}
+
+@media screen and (max-width:768px) {
+    .imgabout{
+        height: auto;
+        width: 100%;
+        flex-wrap: wrap;
+    }
+    .imgabout img{
+        padding: 0px;
+        height: auto;
+        width: 100%;
+        }
+
+    .textabout{
+        width: 55%;
+        height: auto;
+        align-items: center;
+        border: none;
+        }
+}
 

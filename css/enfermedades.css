@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;700&display=swap');
+
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.portada{
+    background: url(../multimedia/imagenes/enfermedades.jpg) no-repeat;
+    background-color: rgba(0,0,0,0.75);
+    background-blend-mode: soft-light;
+    background-size: cover;
+    width: 100%;
+    height:auto;
+    border-bottom: 3px solid black;
+}
+
+.tittle p{
+    font-family: 'Ubuntu', sans-serif;
+    padding: 1em;
+    text-align: center;
+    color: white;
+    font-size: 50px;
+}
+
+.txt{
+    padding: 0.1em 4em 0.7em 4em;
+    color: white;
+    font-size: 40px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.txt2{
+    padding: 0.1em 4em 0.7em 4em;
+    color: white;
+    font-size: 40px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.content p{
+    text-align: center;
+    margin-top: 50px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 35px; 
+}
+
+.description p{
+    margin-top: 3px;
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+}
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    max-width: 60%;
+    gap: 1rem;
+}
+
+.container .box{
+    border: 2px solid black;
+    margin: 30px;
+    box-sizing: border-box;
+    background-color: #ff6c6c;
+    padding:  2em 1.5em 2em 1.5em;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: ease-in 300ms;
+}
+
+.box:hover{
+    background-color: #f72424 ;
+    color: white;
+    transform: translateY(-15px);
+}
+
+.img{
+    display: flex;
+    justify-content: center;
+    height: 300px;
+}
+
+.img img{
+    border: 3px solid black;
+    border-radius: 10%;
+    aspect-ratio: 21/9;
+}
+
+h3{
+    text-align: center;
+    padding: 1em 1em 1em 1em;
+    font-size: 25px;
+}
+
+.bebe p{
+    text-align: center;
+}
+
+.niño p{
+    text-align: center;
+}
+
+.adolescente p{
+    text-align: center;
+}
+
+.adulto-joven p{
+    text-align: center;
+}
+
+.adulto p{
+    text-align: center;
+}
+
+.anciano p{
+    text-align: center;
+}
+
+@media (max-width: 700px){
+    .container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
