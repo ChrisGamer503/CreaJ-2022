@@ -1,6 +1,8 @@
+
 footer{
-    background-color: black;
+    background-color: #3B4754;
     color: white;
+    box-sizing: border-box;
 }
 
 .footer{
@@ -8,6 +10,8 @@ footer{
     padding: 4%;
     justify-content: center;
     align-items: center;
+    font-size: 1rem;
+    box-sizing: border-box;
 }
 
 .seccion1,.seccion2, .seccion3{
@@ -57,14 +61,22 @@ footer{
 }
 
 .reference{
-    font-size: 14px;
+    font-size: 0.9rem;
     text-align: center;
 }
 
 .reference a{
-    font-size: 14px;
+    text-decoration: none;
 }
 
 .creditos .reference{
     padding-bottom: 2%;
+}
+.reference :nth-child(1){
+    color: #FFFFFF;
+}
+
+@media screen and (max-width:768px){
+    .footer{
+        font-size: 0.6rem;}
 }

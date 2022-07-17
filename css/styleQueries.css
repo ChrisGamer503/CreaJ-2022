@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;700&display=swap%27');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;700&display=swap');
 
 /* Fondo */
 *{
@@ -8,12 +9,9 @@
     box-sizing: border-box;
 }
 
-.queries{
-    padding: 2% 8%;
-}
-
 .colorqueries{
     background-color: white;
+    
 }
 
 /* Consultas */
@@ -28,36 +26,31 @@
     padding: 1% 3%;
     flex-wrap: wrap;
     display: flex;
-    align-items: center;
     flex-wrap: wrap;
+    background-color: #ff6c6c;
 }
 
 .textconsultas{
     height: auto;
     width: 50%;
-    padding: 1%;
+    padding: 2%;
 }
+
 .imgconsultas{
     height: auto;
-    width: 50%;
-    padding: 1%;
+    width: 35%;
+    margin-left: 7%;
 }
 
 .tittleconsultas{
-    font-size: 40px;
-    text-align: center;
-    padding-bottom: 8%;
+    font-size: 50px;
+    margin-top: 8%;
+    padding-bottom: 4%;
     font-family: 'Open Sans', sans-serif;
-    color: #3B4754;
-}
-
-.txtconsultas{
-    color:#798DA3
+    color: black;
 }
 
 /* Medicos */
-
-
 
 .positionespecialista{
     display: flex;
@@ -66,19 +59,15 @@
     border-left: none;
     border-right: none;
     border-width: 1px;
-    border-color: #D6D6D6;
-    padding: 0% 3%;
-    padding-top: 2%;
-    padding-bottom: 1%;
+    border-color: white;
     flex-wrap: wrap;
     display: flex;
     align-items: center;
 }
 
 .showtext{
-    border: 2px solid #1180F1;
     background-color: white;
-    padding: 2% 6%;
+    padding: 2% 15%;
     
 }
 
@@ -88,6 +77,25 @@
     display: flex;
     padding-bottom: 10px;
     justify-content: center;
+}
+
+.txt-consultas{
+    color: white;
+}
+
+.txtconsultas{
+    font-size: 22px;
+}
+
+.txt-info{
+    text-align: center;
+    margin-top: 6%;
+    margin-bottom: 3%;
+}
+
+.txt-info h1{
+    font-size: 45px;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 input{
@@ -123,7 +131,109 @@ input:checked + label{
 
 .showtext > div{
     display: none;
+    border: 10px solid aqua;
+    padding: 1em 2em 1em 2em;
 }
+
+.medico-general img{
+    width: 40%;
+    margin-left: 30%;
+}
+
+.medic-info{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width: 100%;
+}
+
+.button{
+    display: flex;
+    justify-content: center;
+
+}
+
+
+.button-cita{
+   display: flex;
+   justify-content: center;
+   color: black;
+   background-color: #1180F1;
+   font-family: "Open Sans", sans-serif;
+   font-size: 20px;
+   width: 200px;
+   height: 50px;
+   border-radius: 20px;
+   cursor: pointer;
+   margin-bottom: 20px;
+   margin-top: 20px;
+}
+
+.button-cita:hover{
+    background-color: black ;
+    color: white;
+    transform: translateY(-15px);
+}
+
+.tittle-text{
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bolder;
+    font-size: 30px; 
+}
+
+.pediatra img{
+    width: 30%;
+    margin-left: 35%;
+}
+
+.tittle-gastro{
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bolder;
+    font-size: 30px;
+}
+
+.gastroenterologo img{
+    width: 45%;
+    margin-left: 30%;
+}
+
+.tittle-ortopeda{
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bolder;
+    font-size: 30px;
+}
+
+.ortopeda img{
+    width: 40%;
+    margin-left: 30%;
+}
+
+.tittle-psi{
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bolder;
+    font-size: 30px;
+}
+
+.psiquiatra img{
+    width: 30%;
+    margin-left: 30%;
+}
+
+.tittle-aler{
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bolder;
+    font-size: 30px;
+}
+
+.alergologo img{
+    width: 30%;
+    margin-left: 35%;
+}
+
+
 
 @media screen and (max-width:768px) {
     .imgconsultas{

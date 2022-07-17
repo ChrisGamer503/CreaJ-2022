@@ -1,10 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
 *{
     margin:0;
     padding: 0;
     box-sizing: border-box;
-    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
 }  
 
 /*CSS DEL MENU*/
@@ -17,7 +16,7 @@ header{
     background-color: white;
     color: rgb(59,71,84);
     display: flex;
-    z-index: 99999999
+    z-index: 1;
 }
 
 img{
@@ -26,7 +25,7 @@ img{
 
 .logo{
     display: flex;
-    align-items: center;
+    align-items:center;
 }
 
 .togglemenu{
@@ -68,17 +67,17 @@ img.logo{
 
 .sesion {
     padding: 7px;
-    font-size: 20px;
     font-family: 'Lato', sans-serif;
-    border-radius: 9px;
+    border-radius: 20px 20px 0 20px;
     background-color: #FF6C6C;
     border: 1px;
-    margin-bottom: 3px;
 }
 
 .sesion2 a{
     background-color: none;
     color: #FF6C6C;
+    margin-bottom: 60px;
+
 }
 
 .sesion2{
@@ -100,8 +99,18 @@ img.logo{
     color: #FF6C6C;
     transition: all 300ms ease;
 }
+.botones-sesion{
+    display: flex;
+    gap: 15px;
+    margin-top: -2px;
+}
+.botones-sesion a{
+    font-size: 15px;
+}
+ 
+ 
 
-@media screen and (max-width:768px) {
+@media screen and (max-width:767px) {
     .main-menu{
         display: flex;
         align-items: center;
@@ -113,6 +122,8 @@ img.logo{
         transform: translateX(-200%);
         transition: transform 0.3s;
         position: absolute;
+        background-color: white;
+        box-sizing: border-box;
     }
 
     header{
@@ -124,7 +135,7 @@ img.logo{
         padding: 50px 0px;
     }
 
-    .textlogo{
+    .logo a .textlogo{
         display: none;
     }
 }
@@ -138,11 +149,12 @@ img.logo{
         display: flex;
         justify-content: space-between;
         align-items: center;
+        box-sizing: border-box;
+    }
+    .logo a .textlogo{
+        display: none;
     }
 
-}
-
-@media screen and (min-width:768px)  {
     .menu {
         flex-direction: row;
         transform: translateX(0);
@@ -150,6 +162,12 @@ img.logo{
 
     .main-menu {
         transform: translateY(0);
+    }
+}
+
+@media screen and (min-width:1279px)  {
+    .logo a .textlogo {
+        display: block;
     }
 }
 
@@ -175,6 +193,7 @@ img.logo{
 .menu .enfermedades a:hover{
     transition: all 300ms ease;
     color: #FF6C6C;
+    
 }
 
 .menu .consultas a:hover{
@@ -183,19 +202,22 @@ img.logo{
 }
 
 .menu .sesion2 a:hover{
-    transition: all 300ms ease;
+    transition: all 300ms ease-out;
     color: #FF6C6C;
 }
 
-
+.enfermedades h2{
+    color: #3B4754;
+}
 .menu{
     display: flex;
-    gap: 20px;
+    gap: 1.25rem;
 }
 
 .option{
     display: flex;
-    gap: 10px;
+    gap: 0.625rem;
+    margin-right: 1.5rem;
 }
 .select{
     padding: 5px;
@@ -205,14 +227,15 @@ img.logo{
 }
 .principal:hover{
     transition: all 500ms ease;
-    background-color: rgb(205, 21, 21);
+    background-color: #cd1515;
     padding: 5px;
     border-radius: 5px;
     font-size: 15px;
 }
 .option:hover{
-    transition: all 500ms ease;
-    background-color: rgb(205, 21, 21);
+    transition: .3s;
+    color: white;
+    background-color: #FF6C6C;
     padding: 5px;
     border-radius: 5px;
 }
@@ -233,11 +256,9 @@ img.logo{
     color: black;
 }
 
-.textlogo{
-    font-family: 'Lato', sans-serif;
-}
+ 
 
 .nosotros a, .enfermedades a, .contacto a, .consultas a{
-    padding-top: 5px;
-    color: black;
+    padding-top: 3px;
+    color: #3B4754;
 }

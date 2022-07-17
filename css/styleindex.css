@@ -1,56 +1,53 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;700&display=swap');
 /* CSS DE CUERPO DEL INDEX */
 
-.cuerpoindex{
+/*Index completo*/
+
+.cuerpoindex {
     display: flex;
     align-items: center;
     flex-wrap: wrap;
     justify-content: center;
 }
 
-.colorindex{
+.colorindex {
     display: flex;
     background-color: white;
 }
 
-.boxhealthy{
-    border: #D6D6D6 solid 1px;
-    border-right: none;
-    border-left: none;
-    margin-top: 5%;
-    padding-bottom: 5%;
-}
+/* Index completo*/
 
-.inicio{
+/* Sect 1 */
+
+.inicio {
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
 
-.textindex{
+.textindex {
     background-color: #FF6C6C;
     padding: 10px;
     text-align: center;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    height: 100%;  
+    height: 100%;
 }
 
 .ti1 {
     font-size: 50px;
     color: #3B4754;
-    font-family: "Open Sans", sans-serif;
+    font-family: 'Ubuntu', sans-serif;
     line-height: 1.2;
     padding-bottom: 80px;
     text-align: center;
-    flex-wrap: wrap; 
-    margin-top: 10%;   
+    flex-wrap: wrap;
+    margin-top: 10%;
 }
 
 .ti2 {
     font-size: 25px;
-    color: #000;
-    font-family: Georgia;
+    color: rgb(255, 255, 255);
     line-height: 1.5;
     padding-bottom: 70px;
     text-align: center;
@@ -58,33 +55,28 @@
     margin-top: -50px;
 }
 
-#heal{
+.heal {
     color: white;
     font-size: 50px;
 }
 
-.button-index{
+.button-index {
     color: #FFFFFF;
     background-color: #3B4754;
-    font-family: "Open Sans", sans-serif;
-    font-size: 20px;
+    font-size: 17px;
     text-align: center;
     width: 200px;
     height: 50px;
     border-radius: 5px;
     cursor: pointer;
+    transition: .6s;
     margin-top: -20%;
+    border: none;
 }
 
-.answer h1{
-    text-align: center;
-    padding: 2em 2em 0 2em;
-    font-family: 'Ubuntu', sans-serif; 
-    font-size: 50px
-}
-
-.button-index:hover{
-    background-color: #29323de3;
+.button-index:hover {
+    color: white;
+    transform: translateY(-20%);
 }
 
 .imgindex {
@@ -92,100 +84,166 @@
     justify-self: center;
 }
 
-.imgindex img{
+.imgindex img {
     padding: 0em 0em;
     margin-top: -5%;
-    max-width: 118vh;
+    width: 100%;
 }
-    
-.imgindex p{
+
+.imgindex p {
     margin-top: -3%;
+    font-size: 15px;
+    color: #3B4754;
 }
 
-.reference{
-    font-size: 14px;
+.reference__a {
+    text-decoration: none;
+    color: #FF6C6C !important;
+ 
+}
+
+/* Sect 1 */
+
+/* Sect 2 */
+
+.boxhealthy {
+    border-right: none;
+    border-left: none;
+    margin: 3.5% 0%;
+    padding: 3.5% 0%;
+}
+
+.answer h1 {
     text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 3.125rem;
+    color: #3B4754;
 }
 
-.reference a{
-    font-size: 14px;
-}
+.icon-container {
 
-.icon-container{
     display: flex;
     justify-content: center;
-    margin-top: 5rem;
+    margin-top: 3rem;
     gap: 7rem;
 }
 
-.icon img{
+.icon img {
     margin-bottom: 1rem;
 }
 
-
-.icon{
+.icon {
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
     background-color: #fc4949;
     border-radius: 20px;
-    max-width: 15rem;
+    max-width: 18rem;
+    padding-top: 20px;
     color: white;
 }
 
-.icon p, .icon h2{
+.icon p,
+.icon h2 {
     margin: 0.5rem 1rem;
 
 }
 
-.info h1{
-    text-align: center;
-    margin-top: 100px;
-    font-family: 'Ubuntu', sans-serif;
-    font-size: 50px;
+.icon h2 {
+    font-size: 20px;
 }
 
-.info p{
+/* Sect 2 */
+
+
+/* Sect 3 */
+
+.info h1 {
     text-align: center;
-    font-size: 21px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 3.125rem;
+    color: #3B4754;
+}
+
+.info p {
+    color: #3B4754;
+    text-align: center;
+    font-size: 1.3125rem;
     padding: 1em 2em;
     font-family: 'Ubuntu', sans-serif;
 }
 
-.doctor img{
+.doctor img {
     width: 100%;
 }
 
-.icon1{
+.icon1 {
     width: 13%;
     margin: 3%;
 }
 
-.imgs{
+.imgs {
     width: 100%;
 }
 
-.online{
-    width: 50%;
+.informacion {
+    display: flex;
+    align-items: center;
 }
 
-.boxconsulta{
+.container-img {
+    width: 50%;
+    margin-right: 2%;
+}
+
+.container-text {
+    width: 50%;
+    color: #3B4754;
+}
+
+.container-enfermedades,
+.container-sintomas,
+.container-heridas {
+    display: flex;
+    align-items: center;
+    font-family: 'Ubuntu', sans-serif;
+    margin-bottom: 2rem;
+}
+
+.enfermedades h2,
+.sintomas h2,
+.heridas h2 {
+    padding-left: 3%;
+}
+
+.enfermedades p,
+.sintomas p,
+.heridas p {
+    padding-left: 3%;
+}
+
+/* Sect 3 */
+
+
+/* Sect 4 */
+
+.boxconsulta {
     border: #D6D6D6 solid 1px;
     border-right: none;
     border-left: none;
-    margin-top: 5%;
-    padding-bottom: 5%;
+    margin: 3.5% 0%;
+    padding: 3.5% 0%;
 }
 
-.txt-consulta h1{
+.txt-consulta h1 {
     text-align: center;
-    margin-top: 100px;
     font-family: 'Ubuntu', sans-serif;
     font-size: 50px;
+    color: #3B4754;
 }
 
-.online{
+.online {
     width: 130%;
     height: auto;
     padding: 0em 2em 0em 2em;
@@ -193,164 +251,303 @@
 
 .consulta {
     display: flex;
-    justify-content: center;
+    align-items: center;
 }
 
-.chat p{
+.chat p {
     font-size: 25px;
     margin-bottom: 10%;
     text-align: center;
+    color: #3B4754;
     margin-top: 15%;
     padding: 0em 2em 0em 0em;
     font-family: 'Ubuntu', sans-serif;
 }
 
-.chat{
+.chat {
     margin-bottom: 10%;
     text-align: center;
     padding: 0em 2em 0em 2em;
 }
 
-.informacion{
-    display: flex;
-    align-items: center;
-}
-
-.container-img{
-    width: 50%;
-    margin-right: 2%;
-}
-
-.container-text{
-    width: 50%;
-}
-
-.container-enfermedades, .container-sintomas, .container-heridas{
-    display: flex;
-    align-items: center;
-    font-family: 'Ubuntu', sans-serif;
-}
-
-.enfermedades h2, .sintomas h2, .heridas h2{
-    padding-left: 3%;
-}
-
-.enfermedades p, .sintomas p, .heridas p{
-    padding-left: 3%;
-}
+/* Sect 4 */
 
 
 /* CSS DE AGENDAR CITA */
 
-.block1, .block2, .block3{
+.block1,
+.block2,
+.block3 {
     display: flex;
     align-items: center;
 }
 
-.imgdate img{
+.imgdate img {
     width: 100%;
     border-radius: 100%;
     padding: 5%;
 }
 
-.imgdate{
+.imgdate {
     width: 30%;
 }
 
-.boxdate{
-    padding: 6%;
+.boxdate {
+    margin: 3.5% 0%;
+    padding: 3.5% 6%;
 }
 
-.consulta-medic h1{
+.consulta-medic h1 {
     text-align: center;
     padding-bottom: 5%;
+    color: #3B4754;
     font-family: 'Ubuntu', sans-serif;
     font-size: 50px;
 }
 
-.textdate{
+.textdate {
     width: 70%;
     padding: 5%;
+    color: #3B4754;
 }
 
-.textdate h2{
+.textdate h2 {
     font-family: 'Ubuntu', sans-serif;
     font-size: 40px;
     padding-bottom: 3%;
 }
-.textdate p{
+
+.textdate p {
     font-family: 'Ubuntu', sans-serif;
     font-size: 25px;
 }
 
+.textdate__a {
+    text-decoration: none;
+    color: #fc4949;
+}
+
 /* CSS DE LAS CONSULTAS */
 
-.duda{
+.duda {
     padding: 1% 3%;
     display: flex;
     align-items: center;
-    border: black solid;
+    border-radius: 15px;
     background-color: #FF6C6C;
 }
 
-.boxduda{
-    padding: 4%;
+.boxduda {
+    padding: 3.5rem;
     border: #D6D6D6 solid 1px;
     border-right: none;
     border-left: none;
 }
 
-.consulta-text h1{
+.consulta-text h1 {
     font-family: 'Ubuntu', sans-serif;
-    font-size: 33px;
+    font-size: 2.0625rem;
     padding-bottom: 3%;
 }
 
-.consulta-text p{
+.consulta-text p {
     font-family: 'Ubuntu', sans-serif;
-    font-size: 22px;
+    font-size: 1.375;
     display: flex;
 }
 
-.imgcontactenos, .consulta-text, .contact-button{
+.imgcontactenos,
+.consulta-text,
+.contact-button {
     padding: 0% 2%;
 }
 
-.imgcontactenos{
+.imgcontactenos {
     width: 35%;
 }
 
-.consulta-text{
+.consulta-text {
     width: 43%;
-    text-align:center;
+    text-align: center;
     color: white;
 }
 
-.contact-button{
-    width: 15%;
+.contact-button {
+    width: 25%;
 }
 
+.button-contact {
+    color: #FFFFFF;
+    background-color: #3B4754;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.25rem;
+    text-align: center;
+    padding: 10% 15%;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+    transition: .4s;
+}
 
+.button-contact:hover {
+    transform: translateY(-4%);
+    box-shadow: 2px 5px 8px -1px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 2px 5px 8px -1px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 2px 5px 8px -1px rgba(0, 0, 0, 0.75);
+}
 
-@media screen and (max-width:768px){
-    .imgindex{
+.creditos .reference {
+    padding-bottom: 2%;
+}
+
+@media screen and (max-width:768px) {
+    .imgindex {
         padding: 0;
         margin: 0;
         width: 100%;
-        }
-    .textindex {
-        padding: 10px;
-    }
-    .ti1{
-        font-size: 40px;
-        padding-bottom: 30px;
-    }
-    .ti2{
-        font-size: 20px;
-        padding-bottom: 30px;
     }
 
-    .duda{
+    .textindex {
+        padding: 0.9rem;
+    }
+
+    .ti1 {
+        font-size: 2.5rem;
+        padding-bottom: 4rem;
+    }
+
+    .heal {
+        font-size: 2.5rem;
+    }
+
+    .ti2 {
+        font-size: 1rem;
+        padding-bottom: 2.5rem;
+    }
+
+    .duda {
+        flex-wrap: wrap;
+        transition: all ease 300ms;
+    }
+
+    .inicio {
+        display: flex;
+        justify-items: center;
+        width: 100%;
+    }
+
+    .imgindex img {
+        width: 100%;
+    }
+
+    .boxhealthy {
+        padding: 0% 5%;
+    }
+
+    .container-info {
+        padding: 0% 5%;
+    }
+
+    .icon-container {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 2%;
+    }
+
+    .informacion {
+        flex-wrap: wrap;
+        display: flex;
+        justify-content: center;
+    }
+
+    .container-img,
+    .container-text {
+        width: 100%;
+    }
+
+    .consulta {
+        flex-wrap: wrap;
+        transition: all ease 300ms;
+    }
+
+    .block1,
+    .block2,
+    .block3 {
+        flex-wrap: wrap;
+        justify-content: center;
+        border: #D6D6D6 solid 1px;
+        border-right: none;
+        border-left: none;
+        border-top: none;
+        margin: 3.5% 0%;
+        padding: 3.5% 0%;
+        transition: all ease 300ms;
+    }
+
+    .imgdate {
+        width: 60%;
+        justify-items: center;
+    }
+
+    .textdate {
+        width: 100%;
+    }
+
+    .duda {
+        flex-direction: column;
+    }
+
+    .consulta-text,
+    .contact-button {
+        width: 100%;
+    }
+
+    .consulta-text p {
+        padding-bottom: 3rem;
+    }
+
+}
+
+@media screen and (max-width:600px) {
+    .inicio {
         flex-wrap: wrap;
     }
+
+    .button-index {
+        margin-bottom: 5rem;
+    }
+}
+
+@media screen and (max-width:1025px) {
+    .inicio {
+        display: flex;
+        width: 100%;
+    }
+
+    .imgindex img {
+        width: 100%;
+    }
+
+    .icon-container {
+        gap: 2rem;
+        transition: all ease 300ms;
+        padding: 0% 3%;
+    }
+
+    .container-info {
+        padding: 0% 5%;
+    }
+
+    .duda {
+        display: flex;
+        flex-wrap: wrap;
+        transition: all ease 300ms;
+        text-align: center;
+    }
+
+    .consulta-text p {
+        text-align: justify;
+    }
+
+
 }
