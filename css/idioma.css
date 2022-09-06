@@ -1,0 +1,14 @@
+
+/* IDIOMAS */
+
+.spanish{
+    display: none;
+}
+
+.english{
+    display: none;
+}
+
+.mostrarIdioma{
+    display: block;
+}

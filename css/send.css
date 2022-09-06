@@ -1,0 +1,41 @@
+body{
+    background-image: url(../multimedia/imagenes/fondoregister.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.box{
+    background-color: #fc4949;
+    margin-top: 3%;
+    width: 70%;
+    margin-left: 15%;
+}
+
+.img img{
+    width: 30%;
+    margin-left: 35%;
+    margin-top: 5%;
+}
+
+.txt{
+    text-align: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 25px;
+    color: white;
+    margin-bottom: 5%;
+}
+
+button{
+    background-color: black;
+    color: white;
+    width: 15%;
+    margin-left: 43%;
+    border-radius: 20px;
+    padding: 0.7rem;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 17px;
+    margin-bottom: 5%;
+    cursor: pointer;
+}
+

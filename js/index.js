@@ -1,33 +1,118 @@
 //variables
-let select = document.querySelector(".select");
-let options = document.querySelector(".options-langs");
-let principal = document.querySelector(".principal")
+let select = document.querySelectorAll(".select");
+let options = document.querySelectorAll(".options-langs");
+let principal = document.querySelectorAll(".principal");
+let divSpanish = document.querySelector(".spanish");
+let divEnglish = document.querySelector(".english");
 
-//menu de idioma
-select.addEventListener("click", ()=>{
-
-    document.querySelector(".options-langs").classList.toggle("mostrar")
-
-})
-
-//Cambio de idioma
-function mostrarMensaje(element) {
-    let oldDataImg = principal.children[0].src
-    let oldDataP = principal.children[1].innerHTML
-    
-    let newDataImg = element.children[0].src
-    let newDataP = element.children[1].innerHTML
-
-    principal.children[0].src = newDataImg;
-    element.children[0].src = oldDataImg;
-    principal.children[1].innerHTML = newDataP;
-    element.children[1].innerHTML = oldDataP;
+//IDIOMA POR DEFAULT (ES)
+let idioma = sessionStorage.getItem("idioma")
+if (!idioma) {
+    sessionStorage.setItem("idioma", "es")
+    console.log("idioma por default español")
 }
 
-//Menu de hamburguesa
-const toggleMenuElement = document.getElementById("togglemenu");
-const mainMenuElement = document.getElementById("main-menu");
+cargarIdioma(idioma)
 
-toggleMenuElement.addEventListener("click",()=>{
-    mainMenuElement.classList.toggle("mainmenu-view")
+//menu de idioma
+select.forEach(elemento =>{
+    elemento.addEventListener("click", ()=>{
+        options.forEach(elementito =>{
+            elementito.classList.toggle("mostrar")
+        })
+    })
+})
+
+
+//Cambio de idioma
+function mostrarMensaje() {
+
+    let idioma = sessionStorage.getItem("idioma")
+    console.log(idioma)
+    cambiarIdioma(idioma)
+    if (idioma == "es") {
+        guardarIdioma("en")
+    } else if (idioma == "en"){
+        guardarIdioma("es")
+    }
+}
+
+function cambiarIdioma(idioma) {
+    if (idioma == "es") 
+    {
+        document.querySelectorAll(".english").forEach(elementito =>{
+                    elementito.classList.add("mostrarIdioma")
+        })
+        document.querySelectorAll(".spanish").forEach(elementito =>{
+                    elementito.classList.remove("mostrarIdioma")  
+        })
+        
+    } else if (idioma == "en") 
+    {
+        document.querySelectorAll(".english").forEach(elementito => {
+            elementito.classList.remove("mostrarIdioma")
+        })
+        document.querySelectorAll(".spanish").forEach(elementito => {
+            elementito.classList.add("mostrarIdioma")
+        })
+        
+    }
+}
+
+function detectarLenguaje(){
+    if (getComputedStyle(divSpanish).display == "block") {
+        console.log("Esto es español")
+        return "es"
+        
+    } else if (getComputedStyle(divEnglish).display == "block") {
+        console.log("Esto es ingles")
+        return "en"
+        
+    }
+}
+
+function guardarIdioma(idioma){
+    sessionStorage.setItem("idioma", idioma)
+}
+
+function cargarIdioma(idioma) {
+    if (idioma == "en") 
+    {
+        document.querySelectorAll(".english").forEach(elementito =>{
+                    elementito.classList.add("mostrarIdioma")
+        })
+        document.querySelectorAll(".spanish").forEach(elementito =>{
+                    elementito.classList.remove("mostrarIdioma")  
+        })
+        
+    } else if (idioma == "es") 
+    {
+        document.querySelectorAll(".english").forEach(elementito => {
+            elementito.classList.remove("mostrarIdioma")
+        })
+        document.querySelectorAll(".spanish").forEach(elementito => {
+            elementito.classList.add("mostrarIdioma")
+        })
+        
+    }
+}
+
+
+
+
+
+
+
+
+
+//Menu de hamburguesa
+const toggleMenuElement = document.querySelectorAll(".togglemenu");
+const mainMenuElement = document.querySelectorAll(".main-menu");
+
+toggleMenuElement.forEach(elemento =>{
+    elemento.addEventListener("click",()=>{
+        mainMenuElement.forEach(elementito =>{
+            elementito.classList.toggle("mainmenu-view")
+        })
+    })
 })
