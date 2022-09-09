@@ -3,26 +3,20 @@
     margin:0;
     padding: 0;
     box-sizing: border-box;
-} 
-
-body{
-    margin-top: 88px;
-}
+    font-family: 'Poppins', sans-serif;
+}  
 
 /*CSS DEL MENU*/
 
-div header{
-    position: fixed;
-    width: 100%;
+header{
+    position: sticky;
     top:0;
     box-shadow: 0px 1px 10px
     rgba(0, 0, 0, 0.4);
     background-color: white;
     color: rgb(59,71,84);
     display: flex;
-    z-index: 20;
-    font-family: 'Poppins', sans-serif;
-    font-size: 18px;
+    z-index: 1;
 }
 
 img{
@@ -40,7 +34,7 @@ img{
     top: 1rem;
     left:1rem;
     cursor: pointer;
-    z-index: 20;
+    z-index: 1;
 }
 
 img.logo{
@@ -56,7 +50,7 @@ img.logo{
 
 .menu{
     list-style-type: none;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Lato', sans-serif;
     flex-direction: column;
 }
 
@@ -73,8 +67,8 @@ img.logo{
 
 .sesion {
     padding: 7px;
-    font-family: 'Poppins', sans-serif;
-    border-radius: 20px 20px 20px 20px;
+    font-family: 'Lato', sans-serif;
+    border-radius: 20px 20px 0 20px;
     background-color: #FF6C6C;
     border: 1px;
 }
@@ -111,9 +105,9 @@ img.logo{
     margin-top: -2px;
 }
 .botones-sesion a{
-    font-size: 18px;
+    font-size: 15px;
 }
-
+ 
  
 
 @media screen and (max-width:767px) {
@@ -267,53 +261,4 @@ img.logo{
 .nosotros a, .enfermedades a, .contacto a, .consultas a{
     padding-top: 3px;
     color: #3B4754;
-}
-
-
-/* IDIOMAS */
-
-.spanish{
-    display: none;
-}
-
-.english{
-    display: none;
-}
-
-.mostrarIdioma{
-    display: block;
-}
-
-/*Perfiles*/
-
-.perfilSesion{
-    padding-top: 2px;
-    color: red;
-    font-size: 1.125rem;
-}
-
-.esconder{
-    display: none;
-}
-
-.logout a{
-    background-color: none;
-    color: white;
-    margin-bottom: 60px;
-    border-radius: 20px 20px 20px 20px;
-}
-
-.logout:hover{
-    background-color:rgb(205, 21, 21);
-    transition: all 500ms ease;
-    color: white;
-}
-
-.logout {
-    border-radius: 20px 20px 20px 20px;
-    background-color: #FF6C6C;
-    border: none;
-    color: black;
-    font-size: 1.125rem;
-    padding: 7px;
 }

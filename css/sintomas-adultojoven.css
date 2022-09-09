@@ -6,28 +6,29 @@
     background-blend-mode: soft-light;
     background-size: cover;
     width: 100%;
+    height: 60vh;
     border-bottom: 3px solid black;
 }
 
 .tittle p{
     font-family: 'Ubuntu', sans-serif;
-    padding: 2em 0 1em 0;
+    padding: 1em;
     text-align: center;
     color: white;
-    font-size: 3.7rem;
+    font-size: 50px;
 }
 
 .txt{
-    padding: 0.1em 5em 1.5em 5em;
+    padding: 0.1em 4em 0.7em 4em;
     color: white;
-    font-size: 1.5625rem;
+    font-size: 40px;
     font-family: 'Ubuntu', sans-serif;
 }
 
 .txt2{
-    padding: 0.1em 5em 5em 5em;
+    padding: 0.1em 4em 0.7em 4em;
     color: white;
-    font-size: 1.5625rem;
+    font-size: 40px;
     font-family: 'Ubuntu', sans-serif;
 }
 
@@ -47,21 +48,14 @@
 .center{
     display: flex;
     justify-content: center;
-    padding: 0em 0em 0em 3em;
-    position: relative;
-    max-width: 100%;
+    padding: 0em 5em 0em 5em;
 }
 .container{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     justify-items: center;
-    max-width: 60%;
-    gap: 1rem;
-}
-
-.container a{
-    text-decoration: none;
-    color: black;
+    max-width: 100%;
+    gap: 0rem;
 }
 
 .container .box{
@@ -69,24 +63,16 @@
     margin: 30px;
     box-sizing: border-box;
     background-color: #ff6c6c;
-    padding:  2em 1.5em 2em 1.5em;
+    padding:  1em 1em 0em 1em;
     border-radius: 10px;
     cursor: pointer;
     transition: ease-in 300ms;
 }
 
-.box{
-    display: block;
-}
-
-.delete{
-    display: none;
-}
-
 .box:hover{
     background-color: #f72424 ;
     color: white;
-    transform: translateY(-10px);
+    transform: translateY(-15px);
 }
 
 .img{
@@ -136,9 +122,9 @@ h3{
    color: #FFFFFF;
    background-color: #3B4754;
    font-family: "Open Sans", sans-serif;
-   font-size: 15px;
-   width: 60px;
-   height: auto;
+   font-size: 20px;
+   width: 200px;
+   height: 50px;
    border-radius: 5px;
    cursor: pointer;
    margin-bottom: 20px;
@@ -148,128 +134,9 @@ h3{
 .button-buscar:hover{
     background-color: #f72424 ;
     color: white;
-    transform: translateY(-5px);
-    transition: all 500ms;
+    transform: translateY(-15px);
 }
 
 .box:checked{
     background-color: red;
-}
-
-.box_body{
-    display: flex;
-}
-
-.filter_article1{
-    padding-left: 25px;
-    position: relative;
-    background-color: #FD9595;
-    display: grid;
-    grid-template-columns: 10% 90%;
-    align-items: center;
-    border-radius: 0px 20px 20px 0px;
-}
-
-.filter_article1 input{
-    margin-top: 7px;
-    margin-bottom: 7px;
-}
-.filter_article1 label{
-    margin-top: 7px;
-    margin-bottom: 7px;
-}
-
-.filter_article2{
-    background-color: rgba(253, 149, 149, 1);
-    display: grid;
-    grid-template-columns: 10% 90%;
-    align-items: center;
-    padding-left: 25px;
-}
-
-.filter_article2 input{
-    margin-top: 7px;
-    margin-bottom: 7px;
-}
-
-.filter_article2 label{
-    margin-top: 7px;
-    margin-bottom: 7px;
-}
-
-.filter_article3{
-    background-color: #FD9595;
-    display: grid;
-    grid-template-columns: 10% 90%;
-    align-items: center;
-    padding-left: 25px;
-}
-
-.filter_article3 input{
-    margin-top: 7px;
-    margin-bottom: 7px;
-}
-
-.filter_article3 label{
-    margin-top: 7px;
-    margin-bottom: 7px;
-}
-
-.box_article{
-    margin-top: 30px;
-    margin-bottom: 30px;
-    display: flex;
-    transform: translateX(-60%);
-    max-width: 35%;
-    width: 100%;
-    position: absolute;
-    transition: transform 0.3s;
-
-}
-
-.desplegable{
-    display: flex;
-    z-index: 2;
-}
-
-.desplegable-view{
-    transform: translateX(0%);
-}
-
-.view-div{
-    align-items: flex-end;
-    width: 16%;
-    align-self: end;
-}
-
-.invisible{
-    display: none;
-}
-
-@media (max-width: 700px){
-    .container{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        max-width: 100%;
-        padding: 10%;
-    }
-}
-
-@media (max-width: 768px){
-    .tittle p{
-        font-size: 2rem;
-    }
-
-    .txt, .txt2{
-        font-size: 1rem;
-    }
-}
-
-@media (max-width:400){
-    .container{
-        padding: 0%;
-        max-width: 100%;
-        width: 100%;
-    }
 }

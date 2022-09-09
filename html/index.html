@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Healthy House</title>
+    <link rel="icon" type="image/png" href="../multimedia/imagenes/favicon.ico">
+    <link rel="stylesheet" href="../css/menu.css">
+    <link rel="stylesheet" href="../css/styleindex.css">
+    <link rel="stylesheet" href="../css/footer.css">
+</head>
+<body>
+    <header>
+        <div class="togglemenu" id="togglemenu">
+            <img src="../multimedia/imagenes/hamburger.png">
+        </div>
+        
+        <div class="logo">
+        <a href="../html/index.html"><img src="../multimedia/imagenes/logo.png" class="logo" height="70px"></a>
+        <a href="../html/index.html"><p class="textlogo">Healthy House</p></a>
+        </div>
+        <nav class="main-menu" id="main-menu">
+            <ul class="menu" id="menu">
+                <li class="nosotros"><a href="../html/nosotros.html">Nosotros</a></li>
+                <li class="enfermedades"><a href="../html/enfermedades.html">Enfermedades</a></li>
+                <li class="contacto"><a href="../html/contactanos.html">Contactanos</a></li>
+                <li class="consultas"><a href="../html/consultas.html">Consultas</a></li>
+                <li>
+                    <div class="botones-sesion">
+                        <button class="sesion2"><a href="../html/Inicio2.html">Iniciar Sesion</a></button>
+                        <button class="sesion"><a href="../html/inicio.html">Registrarse</a></button>
+                    </div>
+                </li>
+                <li>
+                    <div class="select">
+                        <ul class="selector">
+                            <li class="option principal">
+                                <img src="../multimedia/imagenes/es.png" width="30" alt="">
+                                <p>ES</p>
+                            </li>
+                            
+                            <li class="options-langs ">
+                                <ul>
+                                    <li class="option" onclick="mostrarMensaje(this)">
+                                        <img src="../multimedia/imagenes/en.png" width="30" alt="">
+                                        <p>EN</p>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <!--ti significa text index -->
+
+    <div class="cuerpoindex">
+        <div class="colorindex">
+            <div class="positionindex">
+                <div class="inicio">
+                    <div class="textindex">
+                        <p class="ti1">Tu <span id="heal" class="heal"> salud</span> es nuestra mayor prioridad</p>
+                        <p class="ti2">Estamos enfocados en priorizar la salud de las personas...</p>
+                        <a href="../html/nosotros.html"><button class="button-index">Descubre mas</button></a>
+                    </div>
+                    <div class="imgindex">
+                        <img src="../multimedia/imagenes/inicio.jpg">
+                        <p class="reference">Imagen gracias a <a href="https://pixabay.com/es/" target="_blank">Pixabay.com</a></p>
+                    </div>
+                </div>
+
+            <div class="boxhealthy">
+                <div class="answer">
+                  <h1>¿Que hacemos en Healthy House?</h1>
+                </div>
+                <div class="icon-container">
+                    <div class="icon">
+                        <img src="../multimedia/imagenes/graph.svg" width="80">
+                        <h2>Investigación de diversas enfermedades</h2>
+                        <p>Investigamos diversas enfermedades mas comunes que atenazan a la población.</p>
+                    </div>
+                    <div class="icon">
+                        <img src="../multimedia/imagenes/server.svg" width="80">
+                        <h2>Organizada de la forma mas accesible</h2>
+                        <p>Organizándola información dependiendo enfermedades, síntomas o lesiones, dependiendo la edad del paciente.</p>
+                    </div>
+                    <div class="icon">
+                        <img src="../multimedia/imagenes/cheked.svg" width="80">
+                        <h2>Información confiable</h2>
+                        <p>Con información de confiabilidad para dar seguridad a las personas que se apoyan en nosotros.</p>
+                    </div>
+                </div>
+            </div>
+           
+                <div class="container-info">
+                    <div class="info">
+                        <h1>Descubre nuestra información</h1>
+                        <p>Conoce como la información de nuestro sitio web esta catalogada con los diferentes padecimientos de salud en las personas.</p>
+                    </div>
+
+                    <div class="informacion">
+                        <div class="container-img">
+                            <div class="doctor">
+                                <img src="../multimedia/imagenes/doctor.jpg">
+                            </div>
+                        </div>
+                        <div class="container-text">
+                            <div class="container-enfermedades">
+                                <div class="icon1">
+                                    <img src="../multimedia/imagenes/enfermedad.png" class="imgs">
+                                </div>
+                                <div class="enfermedades">
+                                    <h2>Enfermedades</h2>
+                                    <p>Enfermedades comunes categorizadas en edades</p>
+                                </div>
+                            </div>
+
+                            <div class="container-sintomas">
+                                <div class="icon1">
+                                    <img src="../multimedia/imagenes/sintomas.png" class="imgs">
+                                </div>
+                                <div class="sintomas">
+                                    <h2>Síntomas</h2>
+                                    <p>Síntomas que puedan ser una enfermedad común</p>
+                                </div>
+                            </div>
+
+                            <div class="container-heridas">
+                                <div class="icon1">
+                                    <img src="../multimedia/imagenes/herida.png" class="imgs">
+                                </div>
+                                <div class="heridas">
+                                    <h2>Lesiones</h2>
+                                    <p>Lesiones o heridas que se clasifican por su gravedad</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            <div class="boxconsulta"><a name="consultita"></a>
+                <div class="txt-consulta">
+                <h1>Consúlta con un especialista</h1>
+                </div>
+                <div class="consulta">
+                    <div class="online">
+                        <img src="../multimedia/imagenes/online.jpg">
+                    </div>
+                    <div class="chat">
+                        <p>Entra en contacto en un chat en linea con diferentes 
+                            especialista médicos, reconociendo la necesidad medica que tengas y dándote una información mas adicional y concreta.</p>
+                        <a href="../html/consultas.html"><button class="button-index">Consultas</button></a>
+                    </div>
+                </div>
+            
+            </div>
+
+                <div class="boxdate">
+                    <div class="consulta-medic">
+                        <h1>Programa una consulta con un medico</h1>
+                    </div>
+
+                    <div class="pasos">
+                        <div class="block1">
+                            <div class="imgdate">
+                                <img src="../multimedia/imagenes/datesesion.jpg" alt="">
+                            </div>
+
+                            <div class="textdate">
+                                <h2>Regístrate o inicia sesión</h2>
+                                <p>Puedes iniciar sesión o regístrate desde tu computadora, laptop, Tablet o teléfono. </p>
+                            </div>
+                        </div>
+             
+                        
+                        <div class="block2">
+                            <div class="imgdate">
+                                <img src="../multimedia/imagenes/datesesion2.jpg" alt="">
+                            </div>
+
+                            <div class="textdate">
+                                <h2>Elige a un especialista medico</h2>
+                                <p>Para que selecciones a un especialista medico de acuerdo a tus necesidades o problemas con tu salud. <a href="#consultita">(Agenda tu cita)</a></p>
+                            </div>
+                        </div>
+             
+                        
+                        <div class="block3">
+                            <div class="imgdate">
+                                <img src="../multimedia/imagenes/datesesion3.jpg" alt="">
+                            </div>
+
+                            <div class="textdate">
+                                <h2>Mejora tu salud mas rápido</h2>
+                                <p>Recibe consejos de los especialista, como diferentes tratamientos medicinales tanto naturales como médicos con diferentes recetas a medicinas con problemas de tu salud.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="boxduda"></a>
+                    <div class="duda">
+                        <div class="imgcontactenos">
+                            <img src="../multimedia/imagenes/contactenos.png">
+                        </div>
+                        <div class="consulta-text">
+                            <h1>Consúlta con un especialista</h1>
+                            <p>Entra en contacto en un chat en linea con diferentes 
+                                especialista médicos, reconociendo la necesidad medica que tengas y dándote una información mas adicional y concreta.</p>
+                        </div>
+                        <div class="contact-button">
+                            <a href="../html/contactanos.html"><button class="button-contact">Contactanos</button></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="footer">
+            <div class="seccion1">
+                <p class="titlefooter">Dirección</p>
+                <p class="bodyfooter">Soyapango, El Salvador</p>
+                <p class="bodyfooter">San Salvador, El Salvador</p>
+            </div>
+            <div class="seccion2">
+                <p class="titlefooter">Correo</p>
+                <p class="bodyfooter">HealthyHouse@gmail.com</p>
+                <p class="titlefooter">Telefono</p>
+                <p>(+503) 7007-5136</p>
+            </div>
+            <div class="seccion3">
+                <div class="textfooter">
+                    <p class="titlefooter">Redes sociales</p>
+                </div>
+
+                <div class="imgfooter">
+                    <img src="../multimedia/imagenes/facebook.png" alt="" class="imgsfooter">
+                    <img src="../multimedia/imagenes/instagram.png" alt="" class="imgsfooter">
+                    <img src="../multimedia/imagenes/twitter.png" alt="" class="imgsfooter">
+                </div>
+            </div>
+        </div>
+        <div class="creditos">
+            <p class="reference">Imagenes gracias a: <a href="https://www.freepik.es" target="_blank">Freepik</a></p>
+        </div>
+    </footer>
+    <script src="../js/index.js"></script>
+</body>
+</html>

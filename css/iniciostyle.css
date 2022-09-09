@@ -1,7 +1,4 @@
-*{
-    margin: 0;
-    padding: 0;
-}
+
 body{
     margin: 0;
     padding: 0;
@@ -30,7 +27,7 @@ body{
 .log-in{
     height: 340px;
     width: 350px;
-    background: #fc4949;
+    background: rgba(0,150,163,0.32);
     top: 60%;
     left: 50%;
     position: absolute;
@@ -64,8 +61,7 @@ h2{
 }
 
 .log-in input[type="text"],
-.log-in input[type="password"],
-.log-in input[type="email"]{
+.log-in input[type="password"]{
     border: none;
     border-bottom: 2px solid rgba(255,255,255,1.00);
     background: transparent;

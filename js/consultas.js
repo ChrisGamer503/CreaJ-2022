@@ -42,54 +42,11 @@ function detectClick(elementoClickeado){
     else if (elementoClickeado.id == "alergologo"){
         hide(elementoClickeado)
     }
+
+
+
+
+
+
+
 }
-
-
-
-let todosEN = document.querySelector(".showtextEN").children;
-
-document.querySelector(".medico-generalEN").style.display="block"
-
-function hideEN(elementoClickeadoEN){
-    for (let j = 0; j < todosEN.length; j++){
-        console.log(todosEN[j].className,elementoClickeadoEN.id)
-        let clasesDelParrafoEN = todosEN[j].className
-        if(clasesDelParrafoEN != elementoClickeadoEN.id){
-            todosEN[j].style.display="none"
-            console.log(clasesDelParrafoEN == elementoClickeadoEN.id)
-        }
-        else{
-            todosEN[j].style.display="block"
-            console.log(todosEN[j])
-        }
-    }
-}
-
-function detectClickEN(elementoClickeadoEN){
-    console.log(elementoClickeadoEN.id)
-    if(elementoClickeadoEN.id == "medico-generalEN"){
-       hideEN(elementoClickeadoEN)
-    }
-
-    else if (elementoClickeadoEN.id == "pediatraEN"){
-        hideEN(elementoClickeadoEN)
-    }
-
-    else if (elementoClickeadoEN.id == "gastroenterologoEN"){
-        hideEN(elementoClickeadoEN)
-    }
-
-    else if (elementoClickeadoEN.id == "ortopedaEN"){
-        hideEN(elementoClickeadoEN)
-    }
-
-    else if (elementoClickeadoEN.id == "psiquiatraEN"){
-        hideEN(elementoClickeadoEN)
-    }
-
-    else if (elementoClickeadoEN.id == "alergologoEN"){
-        hideEN(elementoClickeadoEN)
-    }
-}
-
-

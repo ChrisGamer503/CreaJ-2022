@@ -57,7 +57,7 @@ footer{
 }
 
 .bodyfooter{
-    padding: 1.5rem 0%;
+    padding: 1.5% 0%;
 }
 
 .reference{
@@ -79,8 +79,4 @@ footer{
 @media screen and (max-width:768px){
     .footer{
         font-size: 0.6rem;}
-}
-
-.marginheight{
-    margin-top: 500px;
 }
