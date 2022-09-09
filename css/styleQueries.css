@@ -16,38 +16,36 @@
 
 /* Consultas */
 
-.boxconsultas{
-    border-style: solid;
-    border-left: none;
-    border-right: none;
-    border-top: none;
-    border-width: 1px;
-    border-color: #D6D6D6;
-    padding: 1% 3%;
-    flex-wrap: wrap;
-    display: flex;
-    flex-wrap: wrap;
-    background-color: #ff6c6c;
-}
 
 .textconsultas{
     height: auto;
     width: 50%;
     padding: 2%;
+    background: url(../multimedia/imagenes/consultas.gif) no-repeat left 40%;
+    background-color: rgba(0,0,0,0.75);
+    background-blend-mode: soft-light;
+    background-size: cover;
+    width: 100%;
+    height: 88vh;
+    border-bottom: 2px solid black;
 }
 
 .imgconsultas{
     height: auto;
     width: 35%;
     margin-left: 7%;
+    margin-bottom: 50px;
+    margin-top: 60px;
 }
 
 .tittleconsultas{
-    font-size: 50px;
-    margin-top: 8%;
+    font-size: 3.5rem;
+    text-align: center;
+    margin-top: 170px;
     padding-bottom: 4%;
-    font-family: 'Open Sans', sans-serif;
-    color: black;
+    font-family: 'Ubuntu', sans-serif;
+    color: white;
+    font-weight: bolder;
 }
 
 /* Medicos */
@@ -67,8 +65,12 @@
 
 .showtext{
     background-color: white;
-    padding: 2% 15%;
-    
+    padding: 2% 5%;
+}
+
+.showtextEN{
+    background-color: white;
+    padding: 2% 5%;
 }
 
 .botones{
@@ -77,14 +79,20 @@
     display: flex;
     padding-bottom: 10px;
     justify-content: center;
+    
 }
 
 .txt-consultas{
     color: white;
+    text-align: justify;
 }
 
 .txtconsultas{
-    font-size: 22px;
+    font-size: 28px;
+    padding: 0 110px 0 110px;
+    justify-content: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
 }
 
 .txt-info{
@@ -96,6 +104,7 @@
 .txt-info h1{
     font-size: 45px;
     font-family: 'Ubuntu', sans-serif;
+    margin-top: -15px;
 }
 
 input{
@@ -106,48 +115,68 @@ label{
     background-color: #FFFFFF;
     padding: 15px;
     margin: 2px;
-    border: 1px solid #1180F1;
+    border: 1px solid #fc4949;
     border-radius: 30px;
     font-size: 20px;
 }
 
-.titletext{
-    text-align: center;
-    font-family: 'Ubuntu', sans-serif;
-    font-weight: bolder;
-    font-size: 30px;
+
+input:checked + label{
+    background-color: #fc4949;
+    border: 1px solid #fc4949;
+    color: white;
+    transition: all ease 500ms;
+}
+
+.showtext > div{
+    display: none;
+}
+.showtextEN > div{
+    display: none;
+}
+
+
+.gastroenterologo img, .ortopeda img, .psiquiatra img, .alergologo img, .medico-general img, .pediatra img{
+    width: 100%;
+}
+
+.img-gastro, .img-ortopeda, .img-psiquiatra, .img-alergologo, .img-generalmedic, .img-pediatra{
+    width: 40%;
+}
+.gastroenterologoEN img, .ortopedaEN img, .psiquiatraEN img, .alergologoEN img, .medico-generalEN img, .pediatraEN img{
+    width: 100%;
+}
+
+.img-gastroEN, .img-ortopedaEN, .img-psiquiatraEN, .img-alergologoEN, .img-generalmedicEN, .img-pediatraEN{
+    width: 40%;
+}
+
+.boxmedics{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .bodytext{
     font-family: 'Ubuntu', sans-serif;
     padding-top: 2%;
+    padding-bottom: 2%;
+    font-size: 1.2rem;
+    text-align: justify;
+    line-height: 150%;
 }
 
-input:checked + label{
-    background-color: #1180F1;
-    border: 1px solid #1180F1;
-    color: white;
-}
-
-.showtext > div{
-    display: none;
-    border: 10px solid aqua;
-    padding: 1em 2em 1em 2em;
-}
-
-.medico-general img{
-    width: 40%;
-    margin-left: 30%;
-}
 
 .medic-info{
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    width: 100%;
+    font-family: 'Ubuntu', sans-serif;
+    width: 50%;
 }
 
 .button{
     display: flex;
     justify-content: center;
+    border: none;
+    margin-bottom: 40px;
 
 }
 
@@ -155,82 +184,36 @@ input:checked + label{
 .button-cita{
    display: flex;
    justify-content: center;
+   align-items: center;
    color: black;
-   background-color: #1180F1;
-   font-family: "Open Sans", sans-serif;
-   font-size: 20px;
-   width: 200px;
-   height: 50px;
+   background-color: #fc4949;
+   font-family: 'Ubuntu', sans-serif;
+   font-size: 1.25rem;
+   width: 12.5rem;
+   height: 3.125rem;
    border-radius: 20px;
    cursor: pointer;
-   margin-bottom: 20px;
-   margin-top: 20px;
+   margin-top: -25px;
+   margin-bottom: 35px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
 }
 
 .button-cita:hover{
     background-color: black ;
     color: white;
-    transform: translateY(-15px);
+    transform: translateY(-5px);
+    transition: all 500ms;
 }
 
 .tittle-text{
     text-align: center;
     font-family: 'Ubuntu', sans-serif;
     font-weight: bolder;
-    font-size: 30px; 
-}
-
-.pediatra img{
-    width: 30%;
-    margin-left: 35%;
-}
-
-.tittle-gastro{
-    text-align: center;
-    font-family: 'Ubuntu', sans-serif;
-    font-weight: bolder;
-    font-size: 30px;
-}
-
-.gastroenterologo img{
-    width: 45%;
-    margin-left: 30%;
-}
-
-.tittle-ortopeda{
-    text-align: center;
-    font-family: 'Ubuntu', sans-serif;
-    font-weight: bolder;
-    font-size: 30px;
-}
-
-.ortopeda img{
-    width: 40%;
-    margin-left: 30%;
-}
-
-.tittle-psi{
-    text-align: center;
-    font-family: 'Ubuntu', sans-serif;
-    font-weight: bolder;
-    font-size: 30px;
-}
-
-.psiquiatra img{
-    width: 30%;
-    margin-left: 30%;
-}
-
-.tittle-aler{
-    text-align: center;
-    font-family: 'Ubuntu', sans-serif;
-    font-weight: bolder;
-    font-size: 30px;
-}
-
-.alergologo img{
-    width: 30%;
-    margin-left: 35%;
+    font-size: 2rem; 
 }
 
 
@@ -256,5 +239,37 @@ input:checked + label{
     .botones{        
         display:grid;
         grid-template-columns: 1fr 1fr;
+    }
+
+
+    .gastroenterologo img, .ortopeda img, .psiquiatra img, .alergologo img, .medico-general img, .pediatra img{
+        width: 50%;
+    }
+    
+    .img-gastro, .img-ortopeda, .img-psiquiatra, .img-alergologo, .img-generalmedic, .img-pediatra{
+        width: 100%;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .gastroenterologoEN img, .ortopedaEN img, .psiquiatraEN img, .alergologoEN img, .medico-generalEN img, .pediatraEN img{
+        width: 50%;
+    }
+    
+    .img-gastroEN, .img-ortopedaEN, .img-psiquiatraEN, .img-alergologoEN, .img-generalmedicEN, .img-pediatraEN{
+        width: 100%;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .boxmedics{
+        display: block;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+    .medic-info{
+        font-family: 'Ubuntu', sans-serif;
+        width: 100%;
     }
 }

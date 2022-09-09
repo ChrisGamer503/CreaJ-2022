@@ -1,0 +1,415 @@
+body{
+    background-color: #f44646;
+}
+
+.back img{
+    width: 70px;
+}
+
+.exp{
+    margin-left: 45%;
+
+}
+
+.exp img{
+    width: 120px;
+    margin-top: -80px;
+    margin-left: 10px;
+}
+
+.exp p{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 22px;
+    margin-top: 5px;
+    font-weight: bold;
+    margin-bottom: 40px;
+    color: white;
+}
+
+
+
+.table{
+    width: 50%;
+    align-items: center;
+}
+
+.block{
+    position: absolute;
+    left: 0;
+}
+.block li{
+    list-style-type: none;
+    border: 1px solid black;
+    text-align: center;
+    padding: 1.5rem;
+    font-family:'Times New Roman', Times, serif;
+    margin-left: -48px;
+}
+
+.question{
+    width: 100%;
+    color: white;
+}
+
+.block2{
+    position: absolute;
+    left: 0;
+}
+
+.block2 li{
+    list-style-type: none;
+    border: 1px solid black;
+    text-align: center;
+    padding: 1.5rem;
+    font-family:'Times New Roman', Times, serif;
+    margin-left: -48px;
+
+}
+
+.block3{
+    width: 50%;
+}
+
+.block3 li{
+    list-style-type: none;
+    border: 1px solid black;
+    width: 46.5%;
+    text-align: center;
+    padding: 1.5rem;
+    font-family:'Times New Roman', Times, serif;
+    margin-left: -48px;
+}
+ .img7{
+    padding: 0 --5rem 0 0;
+ }
+
+ .img7 p{
+    font-size: 20px;
+    padding: 0 1rem 0 0;
+ }
+
+.info1{
+    padding: 0 2rem 0 0;
+}
+
+.box1{
+    background-color: rgb(39, 158, 205);
+}
+
+.box2{
+    background-color: #3B4754;
+    color: white;
+}
+
+.box{
+    display: flex;
+    justify-content: center;
+}
+.img{
+    width: 30%;
+}
+
+.img img{
+    width: 100%;
+    margin-top: 10px;
+    margin-left: 30px;
+}
+
+.btn button{
+    position: absolute;
+    background-color: black;
+    width: 8%;
+    border-radius: 10px;
+    padding: 0.5rem;
+    cursor: pointer;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+    top: 90%;
+    left: 90%;
+    color: white;
+}
+
+.button2{
+    position: absolute;
+    background-color: black;
+    width: 8%;
+    border-radius: 10px;
+    padding: 0.5rem;
+    cursor: pointer;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+    top: 90%;
+    left: 90%;
+    color: white;
+}
+
+
+.btn button:hover{
+    transition: .4s;
+    transform: translateY(-4%);
+    box-shadow: 2px 5px 8px -1px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 2px 5px 8px -1px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 2px 5px 8px -1px rgba(0, 0, 0, 0.75);
+}
+
+.text-life{
+    width: 90%;
+}
+
+.button2:hover{
+    transition: .4s;
+    transform: translateY(-4%);
+    box-shadow: 2px 5px 8px -1px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 2px 5px 8px -1px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 2px 5px 8px -1px rgba(0, 0, 0, 0.75);
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.text{
+    margin-top: 60px;
+    font-size: 28.5px;
+    margin-left: 150px;
+    width: 45%;
+    color: white;
+}
+
+.text2{
+    padding: 0rem 2rem 0rem 0rem;
+    margin-top: 10px;
+    font-size: 28px;
+    margin-left: 100px;
+    width: 65%;
+    color: white;
+}
+
+.text1{
+    font-weight: bold;
+}
+
+select{
+    padding: 0.5rem;
+    width: 30%;
+}
+
+.box2{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.img2{
+    display: flex;
+    width: 100%;
+
+}
+
+.table{
+    margin-left: 120px;
+}
+
+.img2 img{
+    margin-top: 20px;
+    justify-content: center;
+    max-width: 330px;
+}
+
+
+
+.img3 img{
+    width: 65%;
+    margin-top: 25px;
+}
+
+.img2 h1{
+    text-align: center;
+    font-size: 25px;
+    margin-top: 1px;
+}
+
+.img2 p{
+    margin-left: 2px;
+    font-size: 20px;
+    margin-top: -2px;
+    color: white;
+    text-align: center;
+}
+
+
+
+.img3 p{
+    margin-left: 30px;
+    font-size: 20px;
+}
+
+.space{
+    width: 80%;
+    padding: 0.5rem;
+}
+
+.check{
+    margin-top: 0%;
+}
+
+
+.img4 p{
+    font-size: 18px;
+    margin-top: 12px;
+    margin-bottom: 7px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+.img4{
+    color: white;
+}
+
+::placeholder{
+    color: black;
+}
+
+.img4 h1{
+    text-align: center;
+    margin-top: -5px;
+    margin-bottom: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.img4 form{
+    margin-left: 50px;
+}
+
+.img5{
+    color: white;
+}
+
+.img5 h1{
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.img5 textarea{
+    padding: 1rem;
+    width: 70%;
+}
+
+.img5 p{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.img-ex{
+    width: 100%;
+}
+
+.expli{
+    padding: 0 0 0 22rem;
+    width: 70%;
+}
+
+.img-ex img{
+    width: 65%;
+}
+
+.sintom-expli{
+    display: flex;
+}
+
+
+.img6{
+    color: white;
+}
+
+.yo{
+    display: none;
+}
+
+.boxtu{
+    margin-left: 20px;
+}
+
+.orden{
+    display: flex;
+}
+
+.img-cita{
+    width: 100%;
+}
+
+.img-cita img{
+    width: 55%;
+    margin-left: 10px;
+}
+
+.progra{
+    padding: 0 0 0 20rem;
+    width: 70%;
+    font-size: 23px;
+}
+
+.img6 h1{
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+
+.boxyo1{
+    border-radius: 20px;
+    transition: all ease 350ms;
+    background-color: #B83535;
+}
+
+.boxtu2{
+    background-color: #B83535;
+    border-radius: 20px;
+    transition: all ease 200ms;
+}
+
+.boxyo3{
+    border-radius: 20px;
+    transition: all ease 350ms;
+    background-color: #B83535;
+}
+
+.boxtu4{
+    background-color: #B83535;
+    border-radius: 20px;
+    transition: all ease 200ms;
+}
+
+
+.boxyo:hover{
+    transition: all ease 350ms;
+    background-color: #EE8C8C;
+    border-radius: 20px;
+    
+}
+
+.boxtu:hover{
+    background-color: #EE8C8C;
+    transition: all ease 200ms;
+    border-radius: 20px;
+}
+
+.img-person img{
+    width: 80%;
+    margin-top: 20px;
+}
+
+.form-person{
+    display: flex;
+}
+
+.form-norm{
+    margin-left: 300px;
+    width: 100%;
+}
+
+
+

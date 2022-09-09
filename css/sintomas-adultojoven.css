@@ -5,37 +5,37 @@
     background-color: rgba(0,0,0,0.75);
     background-blend-mode: soft-light;
     background-size: cover;
+    background-position: center center;
     width: 100%;
-    height: 60vh;
     border-bottom: 3px solid black;
 }
 
 .tittle p{
     font-family: 'Ubuntu', sans-serif;
-    padding: 1em;
+    padding: 2em 0 1em 0;
     text-align: center;
     color: white;
-    font-size: 50px;
+    font-size: 3.7rem;
 }
 
 .txt{
-    padding: 0.1em 4em 0.7em 4em;
+    padding: 0.1em 5em 1.5em 5em;
     color: white;
-    font-size: 40px;
+    font-size: 1.5625rem;
     font-family: 'Ubuntu', sans-serif;
 }
 
 .txt2{
-    padding: 0.1em 4em 0.7em 4em;
+    padding: 0.1em 5em 5em 5em;
     color: white;
-    font-size: 40px;
+    font-size: 1.5625rem;
     font-family: 'Ubuntu', sans-serif;
 }
 
 .sin h1{
     text-align: center;
-    margin-top: 50px;
-    margin-bottom: 20px;
+    margin-top: 100px;
+    margin-bottom: 40px;
     font-size: 40px;
     font-family: 'Ubuntu', sans-serif;
 }
@@ -43,19 +43,23 @@
 .sintomas2{
     text-align: center;
     font-family: 'Ubuntu', sans-serif;
+    font-size: 25px;
+    margin-bottom: 50px;
 }
 
 .center{
     display: flex;
     justify-content: center;
-    padding: 0em 5em 0em 5em;
+    padding: 0em 0em 0em 3em;
+    position: relative;
+    max-width: 100%;
 }
 .container{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     justify-items: center;
-    max-width: 100%;
-    gap: 0rem;
+    max-width: 50%;
+    gap: 1rem;
 }
 
 .container .box{
@@ -63,16 +67,24 @@
     margin: 30px;
     box-sizing: border-box;
     background-color: #ff6c6c;
-    padding:  1em 1em 0em 1em;
+    padding:  2em 1.5em 2em 1.5em;
     border-radius: 10px;
     cursor: pointer;
     transition: ease-in 300ms;
 }
 
+.box{
+    display: block;
+}
+
+.delete{
+    display: none;
+}
+
 .box:hover{
     background-color: #f72424 ;
     color: white;
-    transform: translateY(-15px);
+    transform: translateY(-10px);
 }
 
 .img{
@@ -84,7 +96,6 @@
 .img img{
     border: 3px solid black;
     border-radius: 10%;
-    aspect-ratio: 21/9;
 }
 
 h3{
@@ -122,21 +133,190 @@ h3{
    color: #FFFFFF;
    background-color: #3B4754;
    font-family: "Open Sans", sans-serif;
-   font-size: 20px;
-   width: 200px;
-   height: 50px;
+   font-size: 15px;
+   width: 110px;
+   padding: 7px;
+   height: auto;
    border-radius: 5px;
    cursor: pointer;
    margin-bottom: 20px;
-   margin-top: 20px;
+   transform: translate(60px , 10px);
 }
 
 .button-buscar:hover{
     background-color: #f72424 ;
     color: white;
-    transform: translateY(-15px);
+    transform: translate(60px);
+    transition: all 500ms;
 }
 
 .box:checked{
     background-color: red;
+}
+
+.box_body{
+    display: flex;
+}
+
+.filter_article1{
+    padding: 20px 20px 20px 10px;
+    position: relative;
+    background-color: #fc4949;
+    border: 5px solid #000;
+    border-left: none;
+    color: #FFFFFF;
+    gap: 0.5em;
+    display: grid;
+    grid-template-columns: 10% 90%;
+    align-items: center;
+    border-radius: 0px 20px 20px 0px;
+}
+
+.filter_article1 input{
+    margin-top: 7px;
+    margin-bottom: 7px;
+}
+.filter_article1 label{
+    margin-top: 7px;
+    margin-bottom: 7px;
+}
+
+.filter_article1en{
+    padding: 25px 50px 25px 30px;
+    position: relative;
+    background-color: #fc4949;
+    border: 5px solid #000;
+    border-left: none;
+    color: #FFFFFF;
+    gap: 0.7em;
+    display: grid;
+    grid-template-columns: 10% 90%;
+    align-items: center;
+    border-radius: 0px 20px 20px 0px;
+}
+
+.filter_article1en input{
+    margin-top: 7px;
+    margin-bottom: 7px;
+}
+.filter_article1en label{
+    margin-top: 7px;
+    margin-bottom: 7px;
+}
+
+.filter_article2{
+    padding: 20px 35px 20px 25px;
+    background-color: #fc4949;
+    border: 5px solid #000;
+    display: grid;
+    color: #FFFFFF;
+    gap: 0.7rem;
+    border-left: none;
+    grid-template-columns: 10% 90%;
+    align-items: center;
+}
+
+.filter_article2 input{
+    margin-top: 7px;
+    margin-bottom: 7px;
+}
+
+.filter_article2 label{
+    margin-top: 7px;
+    margin-bottom: 7px;
+}
+
+.filter_article3{
+    padding: 20px 35px 20px 25px;
+    background-color: #fc4949;
+    border: 5px solid #000;
+    gap: 0.7rem;
+    display: grid;
+    color: #FFFFFF;
+    grid-template-columns: 10% 90%;
+    align-items: center;
+}
+
+.filter_article3 input{
+    margin-top: 7px;
+    margin-bottom: 7px;
+}
+
+.filter_article3 label{
+    margin-top: 7px;
+    margin-bottom: 7px;
+}
+
+.box_article{
+    margin-top: 200px;
+    margin-bottom: 30px;
+    display: flex;
+    font-size: 15px;
+    transform: translateX(-75%);
+    max-width: 35%;
+    width: 100%;
+    position: absolute;
+    transition: transform 0.3s;
+
+}
+
+.desplegable{
+    display: flex;
+}
+
+.desplegable-view{
+    transform: translateX(0%);
+}
+
+.view-div{
+    align-items: flex-end;
+    width: 25%;
+    transform: translate(190px , 33px);
+    align-self: end;
+}
+
+
+
+.invisible{
+    display: none;
+}
+
+.box{
+    color: black;
+}
+
+a{
+    text-decoration: none;
+}
+
+@media (max-width: 700px){
+    .container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        max-width: 100%;
+        padding: 10%;
+    }
+}
+
+@media (max-width: 768px){
+    .tittle p{
+        font-size: 2rem;
+    }
+
+    .txt, .txt2{
+        font-size: 1rem;
+    }
+}
+
+@media (max-width:400){
+    .container{
+        padding: 0%;
+        max-width: 100%;
+        width: 100%;
+    }
+}
+
+[type="checkbox"]:checked + label{
+    color: #000;
 }
