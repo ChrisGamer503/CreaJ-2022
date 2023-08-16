@@ -13,7 +13,7 @@
 
 <body>
     <div class="spanish mostrarIdioma">
-        <div class="space">
+        <div class="space7">
             <div class="info">
                 <p class="back"><a href="../html/sintomas-bebe.php"><img src="../multimedia/imagenes/flecha.png"></a>
                 </p>
@@ -22,13 +22,14 @@
                     <div class="content2">
                         <div class="sepa">
                             <p>La neumonía es una infección que inflama los sacos aéreos de uno o ambos pulmones. Los
-                                sacos aéreos se pueden llenar de líquido o pus (material purulento), lo que provoca tos
-                                con flema o pus, fiebre, escalofríos y dificultad para respirar. Diversos
-                                microorganismos, como bacterias, virus y hongos, pueden provocar neumonía.
+                                sacos aéreos se pueden llenar de líquido o pus (material purulento). </p>
+
+                            <p> Lo que provoca tos con flema o pus, fiebre, escalofríos y dificultad para respirar
+                                diversos microorganismos, como bacterias, virus y hongos, pueden provocar neumonía.
                             </p>
                         </div>
                         <div class="sepa2">
-                            <img src="../multimedia/imagenes/imagenes-enfermedades/bebes/varicela.png">
+                            <img src="../multimedia/imagenes/imagenes-enfermedades/bebes/neumonia.png">
                         </div>
                     </div>
                 </div>
@@ -77,7 +78,7 @@
     </div>
 
     <div class="english">
-        <div class="space">
+        <div class="space7">
             <div class="info">
                 <p class="back"><a href="../html/sintomas-bebe.php"><img src="../multimedia/imagenes/flecha.png"></a>
                 </p>
@@ -86,13 +87,14 @@
                     <div class="content2">
                         <div class="sepa">
                             <p>Pneumonia is an infection that inflames the air sacs of one or both lungs. The air sacs
-                                can fill with fluid or pus (purulent material), causing a cough with phlegm or pus,
+                                can fill with fluid or pus (purulent material).</p>
+                            <p>Causing a cough with phlegm or pus,
                                 fever, chills, and shortness of breath. Various microorganisms, such as bacteria,
                                 viruses, and fungi, can cause pneumonia.
                             </p>
                         </div>
                         <div class="sepa2">
-                            <img src="../multimedia/imagenes/imagenes-enfermedades/bebes/varicela.png">
+                            <img src="../multimedia/imagenes/imagenes-enfermedades/bebes/neumonia.png">
                         </div>
                     </div>
                 </div>

@@ -13,8 +13,13 @@ $consulta = "SELECT *
 $consulta = mysqli_query ($conexion, $consulta);
 $consulta = mysqli_fetch_array($consulta);
 
+
+
 $row = $consulta;
-$rol = intval($row["id-roles"]?? '') ;
+$rol = intval($row["rol-id"]?? '') ;
+
+echo $rol;
+
 if (isset($rol)) {
     switch ($rol) {
         case 1:
@@ -46,12 +51,14 @@ if($consulta)
         default:
     }
 
-    }else{
-        include ("../php/contraincorrecta2.php");
+    }
+    else{
+        include ("../php/usuarioincorrecto2.php");
     }
 }
 else{
-    include ("../php/usuarioincorrecto2.php");
+    include ("../php/contraincorrecta2.php");
+    
 }
 
 //cerrar base de datos

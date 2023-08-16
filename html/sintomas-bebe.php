@@ -59,14 +59,14 @@
                                     <h3 class="enfermedad">Varicela</h3>
                                 </div>
                                 <div class="invisible">
-                                    <p>Fiebre</p>
-                                    <p>Perdida del Apetito</p>
-                                    <p>Dolor de cabeza</p>
-                                    <p>Cansancio y sensación de malestar general</p>
-                                    <p>Bultos rojos o rosados elevados (pápulas), que brotan durante varios días</p>
-                                    <p>Pequeñas ampollas llenas de líquido (vesículas), que se forman en aproximadamente
+                                    <p>fiebre</p>
+                                    <p>perdida del Apetito</p>
+                                    <p>dolor de cabeza</p>
+                                    <p>cansancio y sensación de malestar general</p>
+                                    <p>bultos rojos o rosados elevados (pápulas), que brotan durante varios días</p>
+                                    <p>pequeñas ampollas llenas de líquido (vesículas), que se forman en aproximadamente
                                         un día y luego se rompen y drenan</p>
-                                    <p>Costras y escamas que cubren las ampollas abiertas y tardan varios días en
+                                    <p>costras y escamas que cubren las ampollas abiertas y tardan varios días en
                                         curarse</p>
                                 </div>
                             </div>
@@ -81,17 +81,17 @@
                                     <h3 class="enfermedad">Meningitis</h3>
                                 </div>
                                 <div class="invisible">
-                                    <p>Fiebre</p>
-                                    <p>Llanto constante</p>
-                                    <p>Somnolencia o irritabilidad excesivas</p>
-                                    <p>Dificultad para despertar del sueño</p>
-                                    <p>Inactividad o pereza</p>
-                                    <p>No despertarse para comer</p>
-                                    <p>Alimentación deficiente</p>
-                                    <p>Náuseas o vómitos</p>
-                                    <p>Una protuberancia en el punto blando (fontanela) en la parte superior de la
+                                    <p>fiebre</p>
+                                    <p>llanto constante</p>
+                                    <p>somnolencia o irritabilidad excesivas</p>
+                                    <p>dificultad para despertar del sueño</p>
+                                    <p>inactividad o pereza</p>
+                                    <p>no despertarse para comer</p>
+                                    <p>alimentación deficiente</p>
+                                    <p>náuseas o vómitos</p>
+                                    <p>una protuberancia en el punto blando (fontanela) en la parte superior de la
                                         cabeza del bebé</p>
-                                    <p>Rigidez en el cuerpo y el cuello</p>
+                                    <p>rigidez en el cuerpo y el cuello</p>
                                 </div>
                             </div>
                         </a>
@@ -105,17 +105,17 @@
                                     <h3 class="enfermedad">Resfriado Comun</h3>
                                 </div>
                                 <div class="invisible">
-                                    <p>Congestión o goteo nasal</p>
-                                    <p>Dolor o sensación de picazón en la garganta</p>
-                                    <p>Tos</p>
-                                    <p>Dolores musculares, óseos o articulares</p>
-                                    <p>Estornudos</p>
-                                    <p>Fiebre</p>
-                                    <p>Falta de aire</p>
-                                    <p>Silbido al respirar</p>
-                                    <p>Dolor de oído</p>
-                                    <p>Perdida del Apetito</p>
-                                    <p>Somnolencia o irritabilidad excesivas</p>
+                                    <p>congestión o goteo nasal</p>
+                                    <p>dolor o sensación de picazón en la garganta</p>
+                                    <p>tos</p>
+                                    <p>dolores musculares, óseos o articulares</p>
+                                    <p>estornudos</p>
+                                    <p>fiebre</p>
+                                    <p>falta de aire</p>
+                                    <p>silbido al respirar</p>
+                                    <p>dolor de oído</p>
+                                    <p>perdida del Apetito</p>
+                                    <p>somnolencia o irritabilidad excesivas</p>
                                 </div>
                             </div>
                         </a>
@@ -129,11 +129,11 @@
                                     <h3 class="enfermedad">Conjuntivitis</h3>
                                 </div>
                                 <div class="invisible">
-                                    <p>Enrojecimiento en uno o ambos ojos</p>
-                                    <p>Picazón en uno o ambos ojos</p>
+                                    <p>enrojecimiento en uno o ambos ojos</p>
+                                    <p>picazón en uno o ambos ojos</p>
                                     <p>Una sensación arenosa en uno o ambos ojos</p>
-                                    <p>Secreción en uno o ambos ojos</p>
-                                    <p>Lagrimeo</p>
+                                    <p>secreción en uno o ambos ojos</p>
+                                    <p>lagrimeo</p>
                                 </div>
                             </div>
                         </a>
@@ -147,15 +147,15 @@
                                     <h3 class="enfermedad">Dolor de Garganta</h3>
                                 </div>
                                 <div class="invisible">
-                                    <p>Dolor o sensación de picazón en la garganta</p>
-                                    <p>Dolor e inflamación de los ganglios en la zona del cuello o la mandíbula</p>
-                                    <p>Voz mas ronca o apagada</p>
-                                    <p>Fiebre</p>
-                                    <p>Tos</p>
-                                    <p>Estornudos</p>
-                                    <p>Dolores musculares, óseos o articulares</p>
-                                    <p>Dolor de cabeza</p>
-                                    <p>Náuseas o vómitos</p>
+                                    <p>dolor o sensación de picazón en la garganta</p>
+                                    <p>dolor e inflamación de los ganglios en la zona del cuello o la mandíbula</p>
+                                    <p>voz mas ronca o apagada</p>
+                                    <p>fiebre</p>
+                                    <p>tos</p>
+                                    <p>estornudos</p>
+                                    <p>dolores musculares, óseos o articulares</p>
+                                    <p>dolor de cabeza</p>
+                                    <p>náuseas o vómitos</p>
                                 </div>
                             </div>
                         </a>
@@ -169,10 +169,10 @@
                                     <h3 class="enfermedad">Colicos</h3>
                                 </div>
                                 <div class="invisible">
-                                    <p>Llanto intenso que puede parecer más bien un grito o una expresión de dolor</p>
-                                    <p>Nerviosismo extremo, incluso después de que el llanto disminuyó</p>
-                                    <p>Decoloración facial, como rubor o enrojecimiento de la piel</p>
-                                    <p>Tensión de los músculos alrededor de los labios, que a veces causa una mueca
+                                    <p>llanto intenso que puede parecer más bien un grito o una expresión de dolor</p>
+                                    <p>nerviosismo extremo, incluso después de que el llanto disminuyó</p>
+                                    <p>decoloración facial, como rubor o enrojecimiento de la piel</p>
+                                    <p>tensión de los músculos alrededor de los labios, que a veces causa una mueca
                                         persistente</p>
                                 </div>
                             </div>
@@ -187,8 +187,8 @@
                                     <h3 class="enfermedad">Vomitos</h3>
                                 </div>
                                 <div class="invisible">
-                                    <p>Perdida del Apetito</p>
-                                    <p>Deshidratación</p>
+                                    <p>perdida del Apetito</p>
+                                    <p>deshidratación</p>
                                 </div>
                             </div>
                         </a>
@@ -202,13 +202,13 @@
                                     <h3 class="enfermedad">Fiebre</h3>
                                 </div>
                                 <div class="invisible">
-                                    <p>Sudoración</p>
-                                    <p>Escalofríos y temblores</p>
-                                    <p>Dolor de cabeza</p>
-                                    <p>Dolores musculares, óseos o articulares</p>
-                                    <p>Perdida del Apetito</p>
-                                    <p>Somnolencia o irritabilidad excesivas</p>
-                                    <p>Debilidad general</p>
+                                    <p>sudoración</p>
+                                    <p>escalofríos y temblores</p>
+                                    <p>dolor de cabeza</p>
+                                    <p>dolores musculares, óseos o articulares</p>
+                                    <p>perdida del Apetito</p>
+                                    <p>somnolencia o irritabilidad excesivas</p>
+                                    <p>debilidad general</p>
                                 </div>
                             </div>
                         </a>
@@ -222,11 +222,11 @@
                                     <h3 class="enfermedad">Indigestion</h3>
                                 </div>
                                 <div class="invisible">
-                                    <p>Sentirse lleno rápidamente durante la comida</p>
-                                    <p>Saciedad incómoda después de una comida</p>
-                                    <p>Molestia en la parte superior del abdomen</p>
-                                    <p>Ardor en la parte superior del abdomen</p>
-                                    <p>Náuseas o vómitos</p>
+                                    <p>sentirse lleno rápidamente durante la comida</p>
+                                    <p>saciedad incómoda después de una comida</p>
+                                    <p>molestia en la parte superior del abdomen</p>
+                                    <p>ardor en la parte superior del abdomen</p>
+                                    <p>náuseas o vómitos</p>
 
                                 </div>
                             </div>
@@ -241,13 +241,13 @@
                                     <h3 class="enfermedad">Tetano</h3>
                                 </div>
                                 <div class="invisible">
-                                    <p>Tensión de los músculos alrededor de los labios, que a veces causa una mueca
+                                    <p>tensión de los músculos alrededor de los labios, que a veces causa una mueca
                                         persistente</p>
-                                    <p>Músculos abdominales rígidos</p>
-                                    <p>Presión arterial alta</p>
-                                    <p>Presión arterial baja</p>
-                                    <p>Frecuencia cardíaca acelerada</p>
-                                    <p>Fiebre</p>
+                                    <p>músculos abdominales rígidos</p>
+                                    <p>presión arterial alta</p>
+                                    <p>presión arterial baja</p>
+                                    <p>frecuencia cardíaca acelerada</p>
+                                    <p>fiebre</p>
                                     <p>Sudoración</p>
                                 </div>
                             </div>
@@ -265,7 +265,7 @@
                                     <p>Dolor en el pecho al respirar o toser</p>
                                     <p>Tos que puede producir flema</p>
                                     <p>Fatiga</p>
-                                    <p>Fiebre</p>
+                                    <p>fiebre</p>
                                     <p>Transpiración</p>
                                     <p>Escalofríos y temblores</p>
                                     <p>Náuseas o vómitos</p>
@@ -309,7 +309,7 @@
                                     <h3 class="enfermedad">Zika</h3>
                                 </div>
                                 <div class="invisible">
-                                    <p>Fiebre</p>
+                                    <p>fiebre</p>
                                     <p>Sarpullido</p>
                                     <p>Dolores musculares, óseos o articulares</p>
                                     <p>Dolor de cabeza</p>
@@ -330,7 +330,7 @@
                                 <div class="invisible">
                                     <p>Hinchazón abdominal</p>
                                     <p>Náuseas o vómitos</p>
-                                    <p>Fiebre</p>
+                                    <p>fiebre</p>
                                     <p>Sangre en la orina, las heces o los vómitos</p>
                                     <p>Mucosidad en las heces</p>
                                     <p>Necesidad urgente de defecar</p>
@@ -365,7 +365,7 @@
                                     <h3 class="enfermedad">Gastroenteritis</h3>
                                 </div>
                                 <div class="invisible">
-                                    <p>Fiebre</p>
+                                    <p>fiebre</p>
                                     <p>Parece estar cansado o muy irritable</p>
                                     <p>Siente mucha molestia o dolor</p>
                                     <p>Sangre en la orina, las heces o los vómitos</p>
@@ -392,7 +392,7 @@
                                     <p>Inquietud</p>
                                     <p>Dificultad para oír o responder a los sonidos</p>
                                     <p>Pérdida de equilibrio</p>
-                                    <p>Fiebre</p>
+                                    <p>fiebre</p>
                                     <p>Secreción de líquido del oído</p>
                                     <p>Dolor de cabeza</p>
                                     <p>Perdida del Apetito</p>
@@ -446,7 +446,7 @@
                                     <h3 class="enfermedad">Viruela del mono</h3>
                                 </div>
                                 <div class="invisible">
-                                    <p>Fiebre</p>
+                                    <p>fiebre</p>
                                     <p>Escalofríos y temblores</p>
                                     <p>Dolores musculares, óseos o articulares</p>
                                     <p>Dolor de cabeza</p>
@@ -698,8 +698,8 @@
                                     <h3 class="enfermedad">Varicela</h3>
                                 </div>
                                 <div class="invisible">
-                                    <p>fever</p>
-                                    <p>Perdida del Apetito</p>
+                                    <p>Fever</p>
+                                    <p>Loss of appetite</p>
                                     <p>Dolor de cabeza</p>
                                     <p>Cansancio y sensación de malestar general</p>
                                     <p>Bultos rojos o rosados elevados (pápulas), que brotan durante varios días</p>
@@ -720,7 +720,7 @@
                                     <h3 class="enfermedad">Meningitis</h3>
                                 </div>
                                 <div class="invisible">
-                                    <p>fever</p>
+                                    <p>fiebre</p>
                                     <p>Llanto constante</p>
                                     <p>Somnolencia o irritabilidad excesivas</p>
                                     <p>Dificultad para despertar del sueño</p>
@@ -886,7 +886,7 @@
                                     <p>Presión arterial alta</p>
                                     <p>Presión arterial baja</p>
                                     <p>Frecuencia cardíaca acelerada</p>
-                                    <p>fever</p>
+                                    <p>fiebre</p>
                                     <p>Sudoración</p>
                                 </div>
                             </div>
@@ -1031,7 +1031,7 @@
                                     <p>Inquietud</p>
                                     <p>Dificultad para oír o responder a los sonidos</p>
                                     <p>Pérdida de equilibrio</p>
-                                    <p>fever</p>
+                                    <p>Fiebre</p>
                                     <p>Secreción de líquido del oído</p>
                                     <p>Dolor de cabeza</p>
                                     <p>Perdida del Apetito</p>

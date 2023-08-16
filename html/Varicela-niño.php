@@ -13,9 +13,9 @@
 
 <body>
     <div class="spanish mostrarIdioma">
-        <div class="space6">
+        <div class="space7">
             <div class="info">
-                <p class="back"><a href="../html/sintomas-bebe.php"><img src="../multimedia/imagenes/flecha.png"></a>
+                <p class="back"><a href="../html/sintomas-niños.php"><img src="../multimedia/imagenes/flecha.png"></a>
                 </p>
                 <h1>Varicela</h1>
                 <div class="content">
@@ -31,7 +31,7 @@
                             </p>
                         </div>
                         <div class="sepa2">
-                            <img src="../multimedia/imagenes/imagenes-enfermedades/bebes/varicela.png">
+                            <img src="../multimedia/imagenes/imagenes-enfermedades/niños/varicela-niño.jpg">
                         </div>
                     </div>
                 </div>
@@ -73,9 +73,9 @@
     </div>
 
     <div class="english">
-        <div class="space2">
+        <div class="space6">
             <div class="info">
-                <p class="back"><a href="../html/sintomas-bebe.php"><img src="../multimedia/imagenes/flecha.png"></a>
+                <p class="back"><a href="../html/sintomas-niños.php"><img src="../multimedia/imagenes/flecha.png"></a>
                 </p>
                 <h1>Chickenpox</h1>
                 <div class="content">
@@ -91,7 +91,7 @@
                             </p>
                         </div>
                         <div class="sepa2">
-                            <img src="../multimedia/imagenes/imagenes-enfermedades/bebes/varicela.png">
+                            <img src="../multimedia/imagenes/imagenes-enfermedades/niños/varicela-niño.jpg">
                         </div>
                     </div>
                 </div>
@@ -99,8 +99,7 @@
                     <p>Causes</p>
                 </div>
                 <div class="info-causa">
-                    <p>Chickenpox infection is caused by the varicella-zoster virus. It can be spread through direct
-                        contact with the rash. It can also spread when a person with chickenpox coughs or sneezes and
+                    <p>Chickenpox infection is caused by the varicella-zoster virus. It can be spread through direct. contact with the rash. It can also spread when a person with chickenpox coughs or sneezes and
                         you breathe in droplets that are in the air.
                     </p>
                 </div>

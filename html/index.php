@@ -411,6 +411,7 @@
 ?>
 
     <script src="../js/index.js"></script>
+    <script src="../js/remove.js"></script>
 </body>
 
 </html>

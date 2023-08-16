@@ -13,7 +13,7 @@
 
 <body>
     <div class="spanish mostrarIdioma">
-        <div class="space">
+        <div class="space15">
             <div class="info">
                 <p class="back"><a href="../html/sintomas-bebe.php"><img src="../multimedia/imagenes/flecha.png"></a>
                 </p>
@@ -21,14 +21,18 @@
                 <div class="content">
                     <div class="content2">
                         <div class="sepa">
-                            <p>Una infección del oído (a veces llamada otitis media aguda) es una infección del oído
-                                medio, el espacio lleno de aire detrás del tímpano que contiene los pequeños huesos
-                                vibratorios del oído. Los niños tienen más probabilidades de tener infección de los
-                                oídos que los adultos.
+                            <p>La otitis media aguda es una infección del oído medio. Cuando aparece en niños, se le
+                                llama otitis media pediátrica (o infantil). Es una condición muy común en la niñez,
+                                especialmente en los menores de 5 años de edad.
+                            </p>
+                            <p>
+                                Que puede ser provocada por virus o bacterias. El oído medio es la parte del oído que se
+                                encuentra detrás de la membrana del tímpano y que colabora con la conducción del sonido
+                                a través del oído.
                             </p>
                         </div>
                         <div class="sepa2">
-                            <img src="../multimedia/imagenes/imagenes-enfermedades/bebes/varicela.png">
+                            <img src="../multimedia/imagenes/imagenes-enfermedades/bebes/otitis.jpg">
                         </div>
                     </div>
                 </div>
@@ -40,7 +44,7 @@
                         <li>Una infección de oído está causada por una bacteria o un virus en el oído medio. Esta
                             infección a menudo es el resultado de otra enfermedad: resfriado, gripe o alergia que causa
                             congestión e hinchazón de los conductos nasales, la garganta y las trompas de Eustaquio.
-                        <li>
+                        </li>
                     </ul>
                 </div>
                 <div class="sintoma">
@@ -83,7 +87,7 @@
     </div>
 
     <div class="english">
-        <div class="space">
+        <div class="space15">
             <div class="info">
                 <p class="back"><a href="../html/sintomas-bebe.php"><img src="../multimedia/imagenes/flecha.png"></a>
                 </p>
@@ -91,13 +95,17 @@
                 <div class="content">
                     <div class="content2">
                         <div class="sepa">
-                            <p>An ear infection (sometimes called acute otitis media) is an infection of the middle ear,
-                                the air-filled space behind the eardrum that contains the tiny vibrating bones of the
-                                ear. Children are more likely to get ear infections than adults.
+                            <p>Acute otitis media is an infection of the middle ear. When it appears in children, it is
+                                called pediatric (or infantile) otitis media. It is a very common condition in
+                                childhood, especially in those under 5 years of age.
+                            </p>
+                            <p>
+                                It can be caused by viruses or bacteria. The middle ear is the part of the ear that lies
+                                behind the eardrum and helps conduct sound through the ear.
                             </p>
                         </div>
                         <div class="sepa2">
-                            <img src="../multimedia/imagenes/imagenes-enfermedades/bebes/varicela.png">
+                            <img src="../multimedia/imagenes/imagenes-enfermedades/bebes/otitis.jpg">
                         </div>
                     </div>
                 </div>
@@ -109,7 +117,7 @@
                         <li>An ear infection is caused by bacteria or a virus in the middle ear. This infection is often
                             the result of another illness: a cold, flu, or allergy that causes congestion and swelling
                             of the nasal passages, throat, and Eustachian tubes.
-                        <li>
+                        </li>
                     </ul>
                 </div>
                 <div class="sintoma">
@@ -150,7 +158,7 @@
         </div>
     </div>
     </div>
-    
+
     <script src="../js/idioma.js"></script>
 </body>
 

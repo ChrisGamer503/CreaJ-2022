@@ -13,7 +13,7 @@
 
 <body>
     <div class="spanish mostrarIdioma">
-        <div class="space7">
+        <div class="space15">
             <div class="info">
                 <p class="back"><a href="../html/sintomas-bebe.php"><img src="../multimedia/imagenes/flecha.png"></a>
                 </p>
@@ -26,8 +26,7 @@
                                 infección.
                             </p>
                             <p> La temperatura corporal normal es mayor en los niños en edad preescolar y más alta hacia
-                                los 18 a 24 meses de edad. Sin embargo, a pesar de estas variaciones, la mayoría de los
-                                médicos definen la fiebre como una temperatura de 38° C o más cuando se mide.
+                                los 18 a 24 meses de edad.
                             </p>
                         </div>
                         <div class="sepa2">
@@ -84,7 +83,7 @@
     </div>
 
     <div class="english">
-        <div class="space7">
+        <div class="space15">
             <div class="info">
                 <p class="back"><a href="../html/sintomas-bebe.php"><img src="../multimedia/imagenes/flecha.png"></a>
                 </p>

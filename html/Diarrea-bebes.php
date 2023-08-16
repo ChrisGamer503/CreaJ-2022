@@ -13,7 +13,7 @@
 
 <body>
     <div class="spanish mostrarIdioma">
-        <div class="space">
+        <div class="space15">
             <div class="info">
                 <p class="back"><a href="../html/sintomas-bebe.php"><img src="../multimedia/imagenes/flecha.png"></a>
                 </p>
@@ -25,9 +25,13 @@
                                 común. Puede presentarse sola o estar asociada a otros síntomas, como náuseas, vómitos,
                                 dolor abdominal o pérdida de peso.
                             </p>
+                            <p>
+                                La mayor parte de la diarrea en los niños es causada por virus. La diarrea también puede
+                                ser causada por bacterias, parásitos, cambios en la dieta
+                            </p>
                         </div>
                         <div class="sepa2">
-                            <img src="../multimedia/imagenes/imagenes-enfermedades/bebes/varicela.png">
+                            <img src="../multimedia/imagenes/imagenes-enfermedades/bebes/diarrea.jpg">
                         </div>
                     </div>
                 </div>
@@ -84,7 +88,7 @@
     </div>
 
     <div class="english">
-        <div class="space">
+        <div class="space15">
             <div class="info">
                 <p class="back"><a href="../html/sintomas-bebe.php"><img src="../multimedia/imagenes/flecha.png"></a>
                 </p>
@@ -96,9 +100,13 @@
                                 occur alone or be associated with other symptoms, such as nausea, vomiting, abdominal
                                 pain, or weight loss.
                             </p>
+                            <p>
+                                Most diarrhea in children is caused by viruses. Diarrhea can also
+                                be caused by bacteria, parasites, changes in diet
+                            </p>
                         </div>
                         <div class="sepa2">
-                            <img src="../multimedia/imagenes/imagenes-enfermedades/bebes/varicela.png">
+                            <img src="../multimedia/imagenes/imagenes-enfermedades/bebes/diarrea.jpg">
                         </div>
                     </div>
                 </div>

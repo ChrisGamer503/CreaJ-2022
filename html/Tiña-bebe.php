@@ -13,7 +13,7 @@
 
 <body>
     <div class="spanish mostrarIdioma">
-        <div class="space">
+        <div class="space6">
             <div class="info">
                 <p class="back"><a href="../html/sintomas-bebe.php"><img src="../multimedia/imagenes/flecha.png"></a>
                 </p>
@@ -22,15 +22,14 @@
                     <div class="content2">
                         <div class="sepa">
                             <p>La tiña del cuerpo (tinea corporis) es una erupción cutánea causada por una infección
-                                micótica. Por lo general, es un sarpullido circular y que pica, con piel más clara en el
-                                medio. La tiña recibe su nombre por su apariencia. No se trata de un gusano.<br>La tiña
+                                micótica.</p>
+                            <p>La tiña
                                 del cuerpo está relacionada con el pie de atleta (tiña pedis), la tiña inguinal (tinea
-                                cruris) y la tiña del cuero cabelludo (tinea capitis). La tiña a menudo se propaga por
-                                contacto directo de piel a piel con una persona o animal infectado.
+                                cruris) y la tiña del cuero cabelludo (tinea capitis).
                             </p>
                         </div>
                         <div class="sepa2">
-                            <img src="../multimedia/imagenes/imagenes-enfermedades/bebes/varicela.png">
+                            <img src="../multimedia/imagenes/imagenes-enfermedades/bebes/tiña.jpg">
                         </div>
                     </div>
                 </div>
@@ -39,7 +38,6 @@
                 </div>
                 <div class="info-causa">
                     <ul>
-                        <p>Puede ser contagiada por los siguientes factores:</p>
                         <li>Contacto de humano a humano.</li>
                         <li>Contacto de animal a humano.</li>
                         <li>Contacto de objeto a humano.</li>
@@ -68,7 +66,6 @@
                 </div>
                 <div class="info-tratamientos">
                     <ul>
-                        <p>Para un caso leve de tiña, prueba estos consejos de cuidado personal:</p>
                         <li>Mantenga el área afectada limpia y seca.</li>
                         <li>Aplique una loción, una crema o un ungüento antimicótico de venta libre, como clotrimazol
                             (Lotrimin AF) o terbinafina (Lamisil AT), según las instrucciones del producto.</li>
@@ -80,7 +77,7 @@
     </div>
 
     <div class="english">
-        <div class="space">
+        <div class="space6">
             <div class="info">
                 <p class="back"><a href="../html/sintomas-bebe.php"><img src="../multimedia/imagenes/flecha.png"></a>
                 </p>
@@ -89,14 +86,13 @@
                     <div class="content2">
                         <div class="sepa">
                             <p>Ringworm of the body (tinea corporis) is a skin rash caused by a fungal infection. It is
-                                usually an itchy, circular rash with lighter skin in the middle. Ringworm gets its name
-                                from its appearance. It is not a worm.<br>Ringworm is related to athlete's foot (tinea
-                                pedis), jock itch (tinea cruris) and ringworm of the scalp (tinea capitis). Ringworm is
-                                often spread by direct skin-to-skin contact with an infected person or animal.
+                                usually an itchy, circular rash with lighter skin in the middle.</p>
+                            <p>Ringworm is related to athlete's foot (tinea
+                                pedis), jock itch (tinea cruris) and ringworm of the scalp (tinea capitis).
                             </p>
                         </div>
                         <div class="sepa2">
-                            <img src="../multimedia/imagenes/imagenes-enfermedades/bebes/varicela.png">
+                            <img src="../multimedia/imagenes/imagenes-enfermedades/bebes/tiña.jpg">
                         </div>
                     </div>
                 </div>
@@ -105,7 +101,6 @@
                 </div>
                 <div class="info-causa">
                     <ul>
-                        <p>It can be spread by the following factors:</p>
                         <li>Human-to-human contact.</li>
                         <li>Animal-to-human contact.</li>
                         <li>Object-to-human contact.</li>
@@ -130,7 +125,6 @@
                 </div>
                 <div class="info-tratamientos">
                     <ul>
-                        <p>For a mild case of ringworm, try these self-care tips:</p>
                         <li>Keep the affected area clean and dry.</li>
                         <li>Apply an over-the-counter antifungal lotion, cream, or ointment, such as clotrimazole
                             (Lotrimin AF) or terbinafine (Lamisil AT), according to the product instructions.</li>

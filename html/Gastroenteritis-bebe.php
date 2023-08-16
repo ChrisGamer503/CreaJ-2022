@@ -13,7 +13,7 @@
 
 <body>
     <div class="spanish mostrarIdioma">
-        <div class="space">
+        <div class="space7">
             <div class="info">
                 <p class="back"><a href="../html/sintomas-bebe.php"><img src="../multimedia/imagenes/flecha.png"></a>
                 </p>
@@ -22,13 +22,13 @@
                     <div class="content2">
                         <div class="sepa">
                             <p>La forma más frecuente de desarrollar gastroenteritis viral (con frecuencia llamada gripe
-                                estomacal) es a través del contacto con una persona infectada o mediante el consumo de
-                                alimentos o agua contaminados. Si tienes buena salud, probablemente te recuperarás sin
+                                estomacal)</p>
+                            <p>Si tienes buena salud, probablemente te recuperarás sin
                                 complicaciones. Sin embargo, la gastroenteritis viral puede ser mortal en el caso de
                                 bebés, adultos mayores y personas con el sistema inmunitario comprometido.</p>
                         </div>
                         <div class="sepa2">
-                            <img src="../multimedia/imagenes/imagenes-enfermedades/bebes/varicela.png">
+                            <img src="../multimedia/imagenes/imagenes-enfermedades/bebes/gastro.jpg">
                         </div>
                     </div>
                 </div>
@@ -59,7 +59,7 @@
                         <li>Tiene un punto blando y hundido (fontanela) en la parte superior de la cabeza</li>
                         <li>Tiene la boca seca o llora sin lágrimas</li>
                         <li>Está más cansado o somnoliento de lo normal o no reacciona como lo haría normalmente
-                        <li>
+                        </li>
                     </ul>
                 </div>
                 <div class="tratamientos">
@@ -78,7 +78,7 @@
     </div>
 
     <div class="english">
-        <div class="space">
+        <div class="space7">
             <div class="info">
                 <p class="back"><a href="../html/sintomas-bebe.php"><img src="../multimedia/imagenes/flecha.png"></a>
                 </p>
@@ -87,14 +87,12 @@
                     <div class="content2">
                         <div class="sepa">
                             <p>The most common way to develop viral gastroenteritis (often called the stomach flu) is
-                                through contact with an infected person or by consuming contaminated food or water. If
-                                you are in good health, you will probably recover without complications. However, viral
-                                gastroenteritis can be deadly for infants, older adults, and people with compromised
-                                immune systems.
-                            </p>
+                                through contact with an infected person or by consuming contaminated food or water.</p>
+                            <p> If
+                                you are in good health, you will probably recover without complications.
                         </div>
                         <div class="sepa2">
-                            <img src="../multimedia/imagenes/imagenes-enfermedades/bebes/varicela.png">
+                            <img src="../multimedia/imagenes/imagenes-enfermedades/bebes/gastro.jpg">
                         </div>
                     </div>
                 </div>
@@ -124,7 +122,7 @@
                         <li>You have a soft, sunken spot (fontanelle) on the top of your head</li>
                         <li>Has a dry mouth or cries without tears</li>
                         <li>You are more tired or sleepy than usual or are not reacting as you normally would
-                        <li>
+                        </li>
                     </ul>
                 </div>
                 <div class="tratamientos">

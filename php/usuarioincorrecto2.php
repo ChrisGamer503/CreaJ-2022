@@ -18,7 +18,7 @@
             </div>
             <div class="boxtext">
                 <p class="textSesion">
-                    El nombre de usuario o contraseña es incorrecto
+                    El nombre de usuario no existe
                 </p>
                 <button class="textSesion2">
                     <a href="../html/Inicio2.php">

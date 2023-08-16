@@ -13,7 +13,7 @@
 
 <body>
     <div class="spanish mostrarIdioma">
-        <div class="space6">
+        <div class="space15">
             <div class="info">
                 <p class="back"><a href="../html/sintomas-bebe.php"><img src="../multimedia/imagenes/flecha.png"></a>
                 </p>
@@ -22,13 +22,13 @@
                     <div class="content2">
                         <div class="sepa">
                             <p>El virus del Zika es una infección viral que se transmite principalmente por picaduras de
-                                mosquitos, que ocurre sobre todo en áreas tropicales y subtropicales del mundo. La
+                                mosquitos, que ocurre sobre todo en áreas tropicales y subtropicales del mundo.</p>
+                            <p> La
                                 mayoría de las personas infectadas con el virus del Zika no presentan signos ni
-                                síntomas. Algunas personas tienen fiebre leve, sarpullido y dolor muscular.
-                            </p>
+                                síntomas.</p>
                         </div>
                         <div class="sepa2">
-                            <img src="../multimedia/imagenes/imagenes-enfermedades/bebes/varicela.png">
+                            <img src="../multimedia/imagenes/imagenes-enfermedades/bebes/zika.jpg">
                         </div>
                     </div>
                 </div>
@@ -40,7 +40,7 @@
                         <li>El virus del Zika es causado con mayor frecuencia por un virus que se transmite por la
                             picadura de un mosquito infectado. Los mosquitos que transmiten el virus pertenecen a dos
                             especies de Aedes que se encuentran en todo el mundo.
-                        <li>
+                        </li>
                         <li>Cuando un mosquito pica a una persona infectada con el virus del Zika, el virus infecta al
                             mosquito. Luego, cuando el mosquito infectado pica a otra persona, el virus ingresa en el
                             torrente sanguíneo de la persona y causa una infección.</li>
@@ -83,7 +83,7 @@
     </div>
 
     <div class="english">
-        <div class="space">
+        <div class="space10">
             <div class="info">
                 <p class="back"><a href="../html/sintomas-bebe.php"><img src="../multimedia/imagenes/flecha.png"></a>
                 </p>
@@ -92,13 +92,14 @@
                     <div class="content2">
                         <div class="sepa">
                             <p>Zika virus is a viral infection transmitted primarily by mosquito bites, occurring
-                                primarily in tropical and subtropical areas of the world. Most people infected with the
+                                primarily in tropical and subtropical areas of the world.</p>
+                            <p> Most people infected with the
                                 Zika virus have no signs or symptoms. Some people have a mild fever, rash, and muscle
                                 pain.
                             </p>
                         </div>
                         <div class="sepa2">
-                            <img src="../multimedia/imagenes/imagenes-enfermedades/bebes/varicela.png">
+                            <img src="../multimedia/imagenes/imagenes-enfermedades/bebes/zika.jpg">
                         </div>
                     </div>
                 </div>

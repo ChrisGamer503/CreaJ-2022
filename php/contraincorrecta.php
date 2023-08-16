@@ -18,7 +18,7 @@
             </div>
             <div class="boxtext">
                 <p class="textSesion">
-                    The username or password is incorrect
+                    Incorrect password
                 </p>
                 <button class="textSesion2">
                     <a href="../html/Inicio3.php">

@@ -9,10 +9,10 @@ $password = $_POST["pass"];
 
 $consulta = "SELECT *
              FROM users
-             WHERE Username = '$Username'";
+             WHERE Username = '$Username' AND Password='$password'";
 $consulta = mysqli_query ($conexion, $consulta);
-$consulta = mysqli_fetch_assoc($consulta);
- 
+$consulta = mysqli_fetch_array($consulta);
+
 $row = $consulta;
 $rol = intval($row["id-roles"]?? '') ;
 if (isset($rol)) {

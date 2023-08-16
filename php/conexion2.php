@@ -14,7 +14,7 @@ $consultaId = mysqli_fetch_array ($consultaId);
 
 if(!$consultaId){
 
-    $sql = "INSERT INTO users(Username, Email, Password, `id-roles`) Values ('$Username','$Email','$Password', '2')";
+    $sql = "INSERT INTO users(Username, Email, Password, `rol-id`) Values ('$Username','$Email','$Password', '2')";
 
     if (mysqli_query($conexion, $sql)){
 
@@ -28,6 +28,8 @@ if(!$consultaId){
 else{
     include ("../php/usuario-existente2.php");
 }
+
+
 
 
 //cerrar base de datos

@@ -13,7 +13,7 @@ $consultaId = mysqli_fetch_array ($consultaId);
 
 if(!$consultaId){
 
-    $sql = "INSERT INTO users(Username, Email, Password, `id-roles`) Values ('$Username','$Email','$Password', '2')";
+    $sql = "INSERT INTO users(Username, Email, Password,`rol-id`) Values ('$Username','$Email','$Password')";
 
     if (mysqli_query($conexion, $sql)){
 

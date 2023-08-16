@@ -45,11 +45,11 @@ function detectCheck() {
 let piecito = document.querySelector("footer");
 function testing(params) {
     if (document.querySelector("body").scrollHeight <= 1548) {
-        piecito.style.marginTop = "2700px"
+        piecito.style.marginTop = "1600px"
     }
-    else if (document.querySelector("body").scrollHeight <= 2900) {
+    else if (document.querySelector("body").scrollHeight <= 2000) {
         console.log("Añadir 1400px de margin")
-        piecito.style.marginTop = "1000px"
+        piecito.style.marginTop = "1600px"
     }
     
 }

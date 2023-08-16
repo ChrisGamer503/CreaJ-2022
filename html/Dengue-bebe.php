@@ -13,7 +13,7 @@
 
 <body>
     <div class="spanish mostrarIdioma">
-        <div class="space2">
+        <div class="space10">
             <div class="info">
                 <p class="back"><a href="../html/sintomas-bebe.php"><img src="../multimedia/imagenes/flecha.png"></a>
                 </p>
@@ -22,8 +22,8 @@
                     <div class="content2">
                         <div class="sepa">
                             <p>El dengue es una enfermedad transmitida por mosquitos, y ocurre en zonas tropicales y
-                                subtropicales del mundo. El dengue leve puede ocasionar fiebre alta y síntomas similares
-                                a la gripe. Una forma grave del dengue, también llamada "fiebre hemorrágica del dengue",
+                                subtropicales del mundo. </p>
+                            <p>Una forma grave del dengue, también llamada "fiebre hemorrágica del dengue",
                                 puede ocasionar sangrado intenso, descenso repentino de la presión arterial (choque) y
                                 la muerte.</p>
                         </div>
@@ -78,7 +78,7 @@
     </div>
 
     <div class="english">
-        <div class="space2">
+        <div class="space10">
             <div class="info">
                 <p class="back"><a href="../html/sintomas-bebe.php"><img src="../multimedia/imagenes/flecha.png"></a>
                 </p>
@@ -87,7 +87,8 @@
                     <div class="content2">
                         <div class="sepa">
                             <p>Dengue is a disease transmitted by mosquitoes, and occurs in tropical and subtropical
-                                areas of the world. Mild dengue can cause a high fever and flu-like symptoms. A severe
+                                areas of the world.</p>
+                            <p> A severe
                                 form of dengue fever, also called "dengue hemorrhagic fever," can cause severe bleeding,
                                 a sudden drop in blood pressure (shock), and death.
                             </p>

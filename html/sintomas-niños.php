@@ -50,7 +50,7 @@
                 <div class="center">
                     <div class="container">
 
-                        <a href="../html/varicela.php">
+                        <a href="../html/Varicela-niño.php">
                             <div class="box">
                                 <div class="img">
                                     <img src="../multimedia/imagenes/Imagenes-enfermedades/niños/varicela-niño.jpg">
@@ -72,7 +72,7 @@
                             </div>
                         </a>
 
-                        <a href="../html/meningitis.php">
+                        <a href="../html/DolorGarganta-niño.php">
                             <div class="box">
                                 <div class="img">
                                     <img src="../multimedia/imagenes/Imagenes-enfermedades/niños/dolor-niños.jpg">
@@ -96,7 +96,7 @@
                             </div>
                         </a>
 
-                        <a href="../html/resfriado.php">
+                        <a href="../html/Faringitis-niño.php">
                             <div class="box">
                                 <div class="img">
                                     <img src="../multimedia/imagenes/Imagenes-enfermedades/niños/farengiritis.jpg">
@@ -120,7 +120,7 @@
                             </div>
                         </a>
 
-                        <a href="../html/Conjuntivitis.php">
+                        <a href="../html/Otitis-niño.php">
                             <div class="box">
                                 <div class="img">
                                     <img src="../multimedia/imagenes/Imagenes-enfermedades/niños/otitis-niños.jpg">
@@ -138,7 +138,7 @@
                             </div>
                         </a>
 
-                        <a href="../html/dolor.php">
+                        <a href="../html/Infeccion-vias.php">
                             <div class="box">
                                 <div class="img">
                                     <img src="../multimedia/imagenes/Imagenes-enfermedades/niños/infeccion.jpg">
@@ -689,7 +689,7 @@
                 <div class="center">
                     <div class="container">
 
-                        <a href="../html/varicela.php">
+                        <a href="../html/Varicela-niño.php">
                             <div class="box">
                                 <div class="img">
                                     <img src="../multimedia/imagenes/Imagenes-enfermedades/niños/varicela-niño.jpg">
@@ -711,7 +711,7 @@
                             </div>
                         </a>
 
-                        <a href="../html/meningitis.php">
+                        <a href="../html/DolorGarganta-niño.php">
                             <div class="box">
                                 <div class="img">
                                     <img src="../multimedia/imagenes/Imagenes-enfermedades/niños/dolor-niños.jpg">
@@ -735,7 +735,7 @@
                             </div>
                         </a>
 
-                        <a href="../html/resfriado.php">
+                        <a href="../html/Faringitis-niño.php">
                             <div class="box">
                                 <div class="img">
                                     <img src="../multimedia/imagenes/Imagenes-enfermedades/niños/farengiritis.jpg">
@@ -759,7 +759,7 @@
                             </div>
                         </a>
 
-                        <a href="../html/Conjuntivitis.php">
+                        <a href="../html/Otitis-niño.php">
                             <div class="box">
                                 <div class="img">
                                     <img src="../multimedia/imagenes/Imagenes-enfermedades/niños/otitis-niños.jpg">
@@ -777,7 +777,7 @@
                             </div>
                         </a>
 
-                        <a href="../html/dolor.php">
+                        <a href="../html/Infeccion-vias.php">
                             <div class="box">
                                 <div class="img">
                                     <img src="../multimedia/imagenes/Imagenes-enfermedades/niños/infeccion.jpg">

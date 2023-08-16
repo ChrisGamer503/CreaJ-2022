@@ -41,7 +41,7 @@
                 </div>
             </div>
             <div class="sin">
-                <h1>Descubra cuales son las enfermedades mas comunes</h1>
+                <h1>Descubra cuales son las afecciones que mas se ocasionan</h1>
             </div>
             <div class="sintomas2">
                 <p>Si desea informacion mas especifica seleccione sus sintomas en el filtro</p>
@@ -53,10 +53,10 @@
                         <a href="../html/varicela.php">
                             <div class="box">
                                 <div class="img">
-                                    <img src="../multimedia/imagenes/Imagenes-enfermedades/adolescentes/acne.jpg">
+                                    <img src="../multimedia/imagenes/Imagenes-enfermedades/afecciones/calambre.jpg">
                                 </div>
                                 <div class="Varicela">
-                                    <h3 class="enfermedad">Acné
+                                    <h3 class="enfermedad">Calambre
                                     </h3>
                                 </div>
                                 <div class="invisible">
@@ -76,10 +76,10 @@
                         <a href="../html/meningitis.php">
                             <div class="box">
                                 <div class="img">
-                                    <img src="../multimedia/imagenes/Imagenes-enfermedades/adolescentes/otitis.jpg">
+                                    <img src="../multimedia/imagenes/Imagenes-enfermedades/afecciones/contrac.jpg">
                                 </div>
                                 <div class="Meningitis">
-                                    <h3 class="enfermedad">Tiña</h3>
+                                    <h3 class="enfermedad">Contractura</h3>
                                 </div>
                                 <div class="invisible">
                                     <p>Fiebre</p>
@@ -100,10 +100,10 @@
                         <a href="../html/resfriado.php">
                             <div class="box">
                                 <div class="img">
-                                    <img src="../multimedia/imagenes/Imagenes-enfermedades/adolescentes/celiaquia.jpg">
+                                    <img src="../multimedia/imagenes/Imagenes-enfermedades/afecciones/distension.jpg">
                                 </div>
                                 <div class="Resfriado">
-                                    <h3 class="enfermedad">Enfermedad celíaca</h3>
+                                    <h3 class="enfermedad">Distensión</h3>
                                 </div>
                                 <div class="invisible">
                                     <p>Congestión o goteo nasal</p>
@@ -125,10 +125,10 @@
                             <div class="box">
                                 <div class="img">
                                     <img
-                                        src="../multimedia/imagenes/Imagenes-enfermedades/adolescentes/andsiedad-blog.jpg">
+                                        src="../multimedia/imagenes/Imagenes-enfermedades/afecciones/rotura.jpg">
                                 </div>
                                 <div class="Conjuntivitis">
-                                    <h3 class="enfermedad">Ansiedad</h3>
+                                    <h3 class="enfermedad">Rotura fibrilar </h3>
                                 </div>
                                 <div class="invisible">
                                     <p>Enrojecimiento en uno o ambos ojos</p>
@@ -144,10 +144,10 @@
                             <div class="box">
                                 <div class="img">
                                     <img
-                                        src="../multimedia/imagenes/Imagenes-enfermedades/adolescentes/depresion-blog.jpg">
+                                        src="../multimedia/imagenes/Imagenes-enfermedades/afecciones/torcedura.jpg">
                                 </div>
                                 <div class="dolorgarganta">
-                                    <h3 class="enfermedad">Depresión</h3>
+                                    <h3 class="enfermedad">Torcedura de tobillo</h3>
                                 </div>
                                 <div class="invisible">
                                     <p>Dolor o sensación de picazón en la garganta</p>
@@ -166,10 +166,10 @@
                         <a href="../html/colicos.php">
                             <div class="box">
                                 <div class="img">
-                                    <img src="../multimedia/imagenes/Imagenes-enfermedades/adolescentes/dolor-pel.jpeg">
+                                    <img src="../multimedia/imagenes/Imagenes-enfermedades/afecciones/esguince.jpg">
                                 </div>
                                 <div class="Colicos">
-                                    <h3 class="enfermedad">Dolor pélvico</h3>
+                                    <h3 class="enfermedad">Esguince</h3>
                                 </div>
                                 <div class="invisible">
                                     <p>Llanto intenso que puede parecer más bien un grito o una expresión de dolor</p>
@@ -184,10 +184,10 @@
                         <a href="../html/vomito.php">
                             <div class="box">
                                 <div class="img">
-                                    <img src="../multimedia/imagenes/Imagenes-enfermedades/adolescentes/herpes.jpg">
+                                    <img src="../multimedia/imagenes/Imagenes-enfermedades/afecciones/fascitis.jpg">
                                 </div>
                                 <div class="Vomito">
-                                    <h3 class="enfermedad">Herpes</h3>
+                                    <h3 class="enfermedad">Fascitis</h3>
                                 </div>
                                 <div class="invisible">
                                     <p>Perdida del Apetito</p>
@@ -200,10 +200,10 @@
                             <div class="box">
                                 <div class="img">
                                     <img
-                                        src="../multimedia/imagenes/Imagenes-enfermedades/adolescentes/intoxicacion.jpg">
+                                        src="../multimedia/imagenes/Imagenes-enfermedades/afecciones/erupcion.jpg">
                                 </div>
                                 <div class="Fiebre">
-                                    <h3 class="enfermedad">Intoxicación alimenticia
+                                    <h3 class="enfermedad">Erupción cutánea
                                     </h3>
                                 </div>
                                 <div class="invisible">
@@ -221,10 +221,10 @@
                         <a href="../html/indigestion.php">
                             <div class="box">
                                 <div class="img">
-                                    <img src="../multimedia/imagenes/Imagenes-enfermedades/adolescentes/gripe.jpg">
+                                    <img src="../multimedia/imagenes/Imagenes-enfermedades/afecciones/ampollas.jpg">
                                 </div>
                                 <div class="Indigestion">
-                                    <h3 class="enfermedad">Gripe</h3>
+                                    <h3 class="enfermedad">Ampollas</h3>
                                 </div>
                                 <div class="invisible">
                                     <p>Sentirse lleno rápidamente durante la comida</p>
@@ -240,10 +240,10 @@
                         <a href="../html/tetano.php">
                             <div class="box">
                                 <div class="img">
-                                    <img src="../multimedia/imagenes/Imagenes-enfermedades/adolescentes/gastri.jpg">
+                                    <img src="../multimedia/imagenes/Imagenes-enfermedades/afecciones/cortadas.jpg">
                                 </div>
                                 <div class="Tetano">
-                                    <h3 class="enfermedad">Gastritis</h3>
+                                    <h3 class="enfermedad">Cortadas</h3>
                                 </div>
                                 <div class="invisible">
                                     <p>Tensión de los músculos alrededor de los labios, que a veces causa una mueca
@@ -261,10 +261,10 @@
                         <a href="../html/Neumonia-bebe.php">
                             <div class="box">
                                 <div class="img">
-                                    <img src="../multimedia/imagenes/Imagenes-enfermedades/adolescentes/varicela.jpg">
+                                    <img src="../multimedia/imagenes/Imagenes-enfermedades/afecciones/quemadura.jpg">
                                 </div>
                                 <div class="Neumonia">
-                                    <h3 class="enfermedad">Varicela</h3>
+                                    <h3 class="enfermedad">Quemaduras</h3>
                                 </div>
                                 <div class="invisible">
                                     <p>Dolor en el pecho al respirar o toser</p>
@@ -278,191 +278,6 @@
                                 </div>
                             </div>
                         </a>
-
-                        <a href="../html/Dengue-bebe.php">
-                            <div class="box">
-                                <div class="img">
-                                    <img src="../multimedia/imagenes/Imagenes-enfermedades/adolescentes/migraña.jpg">
-                                </div>
-                                <div class="Dengue">
-                                    <h3 class="enfermedad">Migraña</h3>
-                                </div>
-                                <div class="invisible">
-                                    <p>Dolor de cabeza</p>
-                                    <p>Dolores musculares, óseos o articulares</p>
-                                    <p>Náuseas o vómitos</p>
-                                    <p>Dolor detrás de los ojos</p>
-                                    <p>Glándulas inflamadas</p>
-                                    <p>Erupción</p>
-                                    <p>Dolor de estómago intenso</p>
-                                    <p>Sangre en la orina, las heces o los vómitos</p>
-                                    <p>Sangrado de las encías o la nariz</p>
-                                    <p>Sangrado debajo de la piel, que podría tener el aspecto de un hematoma</p>
-                                    <p>Dificultad para respirar o respiración rápida</p>
-                                    <p>Fatiga</p>
-                                    <p>Somnolencia o irritabilidad excesivas</p>
-                                </div>
-                            </div>
-                        </a>
-
-                        <a href="../html/Zika-beb.php">
-                            <div class="box">
-                                <div class="img">
-                                    <img src="../multimedia/imagenes/Imagenes-enfermedades/adolescentes/asma.jpg">
-                                </div>
-                                <div class="Zika">
-                                    <h3 class="enfermedad">Asma</h3>
-                                </div>
-                                <div class="invisible">
-                                    <p>Fiebre</p>
-                                    <p>Sarpullido</p>
-                                    <p>Dolores musculares, óseos o articulares</p>
-                                    <p>Dolor de cabeza</p>
-                                    <p>Dolor detrás de los ojos</p>
-                                    <p>Fatiga</p>
-                                </div>
-                            </div>
-                        </a>
-
-                        <a href="../html/Diarrea-bebes.php">
-                            <div class="box">
-                                <div class="img">
-                                    <img src="../multimedia/imagenes/Imagenes-enfermedades/adolescentes/encias.jpg">
-                                </div>
-                                <div class="Diarrea">
-                                    <h3 class="enfermedad">Encías inflamadas</h3>
-                                </div>
-                                <div class="invisible">
-                                    <p>Hinchazón abdominal</p>
-                                    <p>Náuseas o vómitos</p>
-                                    <p>Fiebre</p>
-                                    <p>Sangre en la orina, las heces o los vómitos</p>
-                                    <p>Mucosidad en las heces</p>
-                                    <p>Necesidad urgente de defecar</p>
-                                    <p>Deshidratación</p>
-                                </div>
-                            </div>
-                        </a>
-
-                        <a href="../html/Parásitos-bebes.php">
-                            <div class="box">
-                                <div class="img">
-                                    <img src="../multimedia/imagenes/Imagenes-enfermedades/adolescentes/alergia.jpg">
-                                </div>
-                                <div class="Parásitos">
-                                    <h3 class="enfermedad">Alergia a la lactosa</h3>
-                                </div>
-                                <div class="invisible">
-                                    <p>Picazón de la zona anal o vaginal</p>
-                                    <p>Parece estar cansado o muy irritable</p>
-                                    <p>Dolor de estómago intenso</p>
-                                    <p>Náuseas o vómitos</p>
-                                </div>
-                            </div>
-                        </a>
-
-                        <a href="../html/Gastroenteritis-bebe.php">
-                            <div class="box">
-                                <div class="img">
-                                    <img src="../multimedia/imagenes/Imagenes-enfermedades/adolescentes/marisco.jpg">
-                                </div>
-                                <div class="Gastroenteritis">
-                                    <h3 class="enfermedad">Alergia a mariscos</h3>
-                                </div>
-                                <div class="invisible">
-                                    <p>Fiebre</p>
-                                    <p>Parece estar cansado o muy irritable</p>
-                                    <p>Siente mucha molestia o dolor</p>
-                                    <p>Sangre en la orina, las heces o los vómitos</p>
-                                    <p>Vomita con frecuencia</p>
-                                    <p>No mojó el pañal en seis horas</p>
-                                    <p>Tiene un punto blando y hundido (fontanela) en la parte superior de la cabeza</p>
-                                    <p>Tiene la boca seca o llora sin lágrimas</p>
-
-                                </div>
-                            </div>
-                        </a>
-
-                        <a href="../html/Otitis-bebes.php">
-                            <div class="box">
-                                <div class="img">
-                                    <img src="../multimedia/imagenes/Imagenes-enfermedades/adolescentes/frutos.jpg">
-                                </div>
-                                <div class="Otitis">
-                                    <h3 class="enfermedad">Alergia a frutos secos</h3>
-                                </div>
-                                <div class="invisible">
-                                    <p>Dolor de oído</p>
-                                    <p>Jalones o tirones de una oreja</p>
-                                    <p>Inquietud</p>
-                                    <p>Dificultad para oír o responder a los sonidos</p>
-                                    <p>Pérdida de equilibrio</p>
-                                    <p>Fiebre</p>
-                                    <p>Secreción de líquido del oído</p>
-                                    <p>Dolor de cabeza</p>
-                                    <p>Perdida del Apetito</p>
-                                </div>
-                            </div>
-                        </a>
-
-                        <a href="../html/BotulismoInfantil-bebe.php">
-                            <div class="box">
-                                <div class="img">
-                                    <img src="../multimedia/imagenes/Imagenes-enfermedades/adolescentes/urti.jpg">
-                                </div>
-                                <div class="botulismoinfantil">
-                                    <h3 class="enfermedad">Urticaria</h3>
-                                </div>
-                                <div class="invisible">
-                                    <p>Estreñimiento</p>
-                                    <p>Movimientos flojos y problemas para controlar la cabeza</p>
-                                    <p>Parece estar cansado o muy irritable</p>
-                                    <p>Llanto constante</p>
-                                    <p>Babeo</p>
-                                    <p>Párpados caídos</p>
-                                    <p>Dificultad para succionar o alimentarse</p>
-                                    <p>Parálisis</p>
-                                </div>
-                            </div>
-                        </a>
-
-                        <a href="../html/Tiña-bebe.php">
-                            <div class="box">
-                                <div class="img">
-                                    <img src="../multimedia/imagenes/Imagenes-enfermedades/adolescentes/corona.jpg">
-                                </div>
-                                <div class="Tiña">
-                                    <h3 class="enfermedad">Coronavirus</h3>
-                                </div>
-                                <div class="invisible">
-                                    <p>Anillos de expansión ligeramente elevados</p>
-                                    <p>Un parche de piel redondo y plano que pica</p>
-                                    <p>Anillos superpuestos</p>
-                                </div>
-                            </div>
-                        </a>
-
-                        <a href="../html/ViruelaMono-bebe.php">
-                            <div class="box">
-                                <div class="img">
-                                    <img src="../multimedia/imagenes/Imagenes-enfermedades/adolescentes/viruela.jpg">
-                                </div>
-                                <div class="virueladelmono">
-                                    <h3 class="enfermedad">Viruela del mono</h3>
-                                </div>
-                                <div class="invisible">
-                                    <p>Fiebre</p>
-                                    <p>Escalofríos y temblores</p>
-                                    <p>Dolores musculares, óseos o articulares</p>
-                                    <p>Dolor de cabeza</p>
-                                    <p>Ganglios linfáticos inflamados</p>
-                                    <p>Fatiga</p>
-                                    <p>Dolor o sensación de picazón en la garganta</p>
-                                    <p>Tos</p>
-                                </div>
-                            </div>
-                        </a>
-
                     </div>
                 </div>
                 <article class="box_article">

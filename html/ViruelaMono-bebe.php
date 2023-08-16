@@ -13,24 +13,24 @@
 
 <body>
     <div class="spanish mostrarIdioma">
-        <div class="space">
+        <div class="space15">
             <div class="info">
                 <p class="back"><a href="../html/sintomas-bebe.php"><img src="../multimedia/imagenes/flecha.png"></a>
                 </p>
-                <h1>Diarrea</h1>
+                <h1>Viruela del mono</h1>
                 <div class="content">
                     <div class="content2">
                         <div class="sepa">
                             <p>La viruela del mono es una infección viral en la que una persona desarrolla fiebre,
-                                fatiga, dolores musculares y una erupción cutánea en todo el cuerpo. La mayoría de los
-                                casos se resuelven dentro de 2 a 4 semanas.<br>Esta enfermedad poco común se encontró
+                                fatiga, dolores musculares y una erupción cutánea en todo el cuerpo.</p>
+                            <p>Esta enfermedad poco común se encontró
                                 principalmente en países del centro y occidente de África. Recientemente se reportaron
                                 casos que no involucran viajes internacionales o contacto con animales importados, lo
                                 que indica la propagación de esta infección.
                             </p>
                         </div>
                         <div class="sepa2">
-                            <img src="../multimedia/imagenes/imagenes-enfermedades/bebes/varicela.png">
+                            <img src="../multimedia/imagenes/imagenes-enfermedades/bebes/viruelababy.jpg">
                         </div>
                     </div>
                 </div>
@@ -80,7 +80,7 @@
     </div>
 
     <div class="english">
-        <div class="space">
+        <div class="space15">
             <div class="info">
                 <p class="back"><a href="../html/sintomas-bebe.php"><img src="../multimedia/imagenes/flecha.png"></a>
                 </p>
@@ -89,14 +89,15 @@
                     <div class="content2">
                         <div class="sepa">
                             <p>Monkeypox is a viral infection in which a person develops a fever, fatigue, muscle aches,
-                                and a rash all over the body. Most cases resolve within 2 to 4 weeks.<br>This rare
-                                disease was found mainly in West and Central African countries. Cases not involving
-                                international travel or contact with imported animals have recently been reported,
-                                indicating the spread of this infection.
+                                and a rash all over the body. Most cases resolve within 2 to 4 weeks.</p>
+                            <p>This rare
+                            disease was found mainly in West and Central African countries. Cases not involving
+                            international travel or contact with imported animals have recently been reported,
+                            indicating the spread of this infection.
                             </p>
                         </div>
                         <div class="sepa2">
-                            <img src="../multimedia/imagenes/imagenes-enfermedades/bebes/varicela.png">
+                            <img src="../multimedia/imagenes/imagenes-enfermedades/bebes/viruelababy.jpg">
                         </div>
                     </div>
                 </div>

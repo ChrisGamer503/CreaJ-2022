@@ -13,7 +13,7 @@
 
 <body>
     <div class="spanish mostrarIdioma">
-        <div class="space">
+        <div class="space6">
             <div class="info">
                 <p class="back"><a href="../html/sintomas-bebe.php"><img src="../multimedia/imagenes/flecha.png"></a>
                 </p>
@@ -22,12 +22,12 @@
                     <div class="content2">
                         <div class="sepa">
                             <p>La infección por oxiuro es el tipo de infección por parásitos intestinales más frecuente
-                                en los Estados Unidos y una de las más frecuentes en todo el mundo. Los oxiuros son
-                                delgados y blancos, y miden alrededor de 1/4 a 1/2 pulgada (alrededor de 6 a 13
-                                milímetros) de largo.</p>
+                                en los Estados Unidos y una de las más frecuentes en todo el mundo.</p>
+                            <p>Además de esto, también puede aparecer picazón y enrojecimiento en alrededor del ano,
+                                provocada por la presencia de los huevos de Oxiurus en esa región.</p>
                         </div>
                         <div class="sepa2">
-                            <img src="../multimedia/imagenes/imagenes-enfermedades/bebes/varicela.png">
+                            <img src="../multimedia/imagenes/imagenes-enfermedades/bebes/parasitos.jpg">
                         </div>
                     </div>
                 </div>
@@ -74,7 +74,7 @@
     </div>
 
     <div class="english">
-        <div class="space">
+        <div class="space6">
             <div class="info">
                 <p class="back"><a href="../html/sintomas-bebe.php"><img src="../multimedia/imagenes/flecha.png"></a>
                 </p>
@@ -83,12 +83,14 @@
                     <div class="content2">
                         <div class="sepa">
                             <p>Pinworm infection is the most common type of intestinal parasite infection in the United
-                                States and one of the most common worldwide. Pinworms are thin and white, about 1/4 to
-                                1/2 inch (about 6 to 13 millimeters) long.
+                                States and one of the most common worldwide.
                             </p>
+                            <p>In addition to this, itching and redness can also appear around the anus, caused by the
+                                presence of Oxiurus eggs in that region, and that can be easily confused with diaper
+                                rash.</p>
                         </div>
                         <div class="sepa2">
-                            <img src="../multimedia/imagenes/imagenes-enfermedades/bebes/varicela.png">
+                            <img src="../multimedia/imagenes/imagenes-enfermedades/bebes/parasitos.jpg">
                         </div>
                     </div>
                 </div>

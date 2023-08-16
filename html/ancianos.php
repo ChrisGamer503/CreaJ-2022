@@ -53,10 +53,10 @@
                         <a href="../html/varicela.php">
                             <div class="box">
                                 <div class="img">
-                                    <img src="../multimedia/imagenes/Imagenes-enfermedades/adolescentes/acne.jpg">
+                                    <img src="../multimedia/imagenes/Imagenes-enfermedades/ancianos/infarto.jpg">
                                 </div>
                                 <div class="Varicela">
-                                    <h3 class="enfermedad">Acné
+                                    <h3 class="enfermedad">Infarto
                                     </h3>
                                 </div>
                                 <div class="invisible">
@@ -76,10 +76,10 @@
                         <a href="../html/meningitis.php">
                             <div class="box">
                                 <div class="img">
-                                    <img src="../multimedia/imagenes/Imagenes-enfermedades/adolescentes/otitis.jpg">
+                                    <img src="../multimedia/imagenes/Imagenes-enfermedades/ancianos/artritis.jpg">
                                 </div>
                                 <div class="Meningitis">
-                                    <h3 class="enfermedad">Tiña</h3>
+                                    <h3 class="enfermedad">Artritis</h3>
                                 </div>
                                 <div class="invisible">
                                     <p>Fiebre</p>
@@ -100,10 +100,10 @@
                         <a href="../html/resfriado.php">
                             <div class="box">
                                 <div class="img">
-                                    <img src="../multimedia/imagenes/Imagenes-enfermedades/adolescentes/celiaquia.jpg">
+                                    <img src="../multimedia/imagenes/Imagenes-enfermedades/ancianos/hiper.jpg">
                                 </div>
                                 <div class="Resfriado">
-                                    <h3 class="enfermedad">Enfermedad celíaca</h3>
+                                    <h3 class="enfermedad">Hipertensión</h3>
                                 </div>
                                 <div class="invisible">
                                     <p>Congestión o goteo nasal</p>
@@ -124,11 +124,10 @@
                         <a href="../html/Conjuntivitis.php">
                             <div class="box">
                                 <div class="img">
-                                    <img
-                                        src="../multimedia/imagenes/Imagenes-enfermedades/adolescentes/andsiedad-blog.jpg">
+                                    <img src="../multimedia/imagenes/Imagenes-enfermedades/ancianos/ostre.jpg">
                                 </div>
                                 <div class="Conjuntivitis">
-                                    <h3 class="enfermedad">Ansiedad</h3>
+                                    <h3 class="enfermedad">Osteoporosis</h3>
                                 </div>
                                 <div class="invisible">
                                     <p>Enrojecimiento en uno o ambos ojos</p>
@@ -143,11 +142,10 @@
                         <a href="../html/dolor.php">
                             <div class="box">
                                 <div class="img">
-                                    <img
-                                        src="../multimedia/imagenes/Imagenes-enfermedades/adolescentes/depresion-blog.jpg">
+                                    <img src="../multimedia/imagenes/Imagenes-enfermedades/ancianos/utiña.jpg">
                                 </div>
                                 <div class="dolorgarganta">
-                                    <h3 class="enfermedad">Depresión</h3>
+                                    <h3 class="enfermedad">Tiña</h3>
                                 </div>
                                 <div class="invisible">
                                     <p>Dolor o sensación de picazón en la garganta</p>
@@ -166,10 +164,10 @@
                         <a href="../html/colicos.php">
                             <div class="box">
                                 <div class="img">
-                                    <img src="../multimedia/imagenes/Imagenes-enfermedades/adolescentes/dolor-pel.jpeg">
+                                    <img src="../multimedia/imagenes/Imagenes-enfermedades/ancianos/amig.jpg">
                                 </div>
                                 <div class="Colicos">
-                                    <h3 class="enfermedad">Dolor pélvico</h3>
+                                    <h3 class="enfermedad">Amigdalitis estreptocócica </h3>
                                 </div>
                                 <div class="invisible">
                                     <p>Llanto intenso que puede parecer más bien un grito o una expresión de dolor</p>
@@ -184,10 +182,10 @@
                         <a href="../html/vomito.php">
                             <div class="box">
                                 <div class="img">
-                                    <img src="../multimedia/imagenes/Imagenes-enfermedades/adolescentes/herpes.jpg">
+                                    <img src="../multimedia/imagenes/Imagenes-enfermedades/ancianos/tuber.jpg">
                                 </div>
                                 <div class="Vomito">
-                                    <h3 class="enfermedad">Herpes</h3>
+                                    <h3 class="enfermedad">Tuberculosis </h3>
                                 </div>
                                 <div class="invisible">
                                     <p>Perdida del Apetito</p>
@@ -199,11 +197,10 @@
                         <a href="../html/fiebre.php">
                             <div class="box">
                                 <div class="img">
-                                    <img
-                                        src="../multimedia/imagenes/Imagenes-enfermedades/adolescentes/intoxicacion.jpg">
+                                    <img src="../multimedia/imagenes/Imagenes-enfermedades/ancianos/infeccion.jpg">
                                 </div>
                                 <div class="Fiebre">
-                                    <h3 class="enfermedad">Intoxicación alimenticia
+                                    <h3 class="enfermedad">Infecciones urinarias
                                     </h3>
                                 </div>
                                 <div class="invisible">
@@ -221,10 +218,10 @@
                         <a href="../html/indigestion.php">
                             <div class="box">
                                 <div class="img">
-                                    <img src="../multimedia/imagenes/Imagenes-enfermedades/adolescentes/gripe.jpg">
+                                    <img src="../multimedia/imagenes/Imagenes-enfermedades/ancianos/meningitis.jpg">
                                 </div>
                                 <div class="Indigestion">
-                                    <h3 class="enfermedad">Gripe</h3>
+                                    <h3 class="enfermedad">Meningitis</h3>
                                 </div>
                                 <div class="invisible">
                                     <p>Sentirse lleno rápidamente durante la comida</p>
@@ -240,10 +237,10 @@
                         <a href="../html/tetano.php">
                             <div class="box">
                                 <div class="img">
-                                    <img src="../multimedia/imagenes/Imagenes-enfermedades/adolescentes/gastri.jpg">
+                                    <img src="../multimedia/imagenes/Imagenes-enfermedades/ancianos/conjun.jpg">
                                 </div>
                                 <div class="Tetano">
-                                    <h3 class="enfermedad">Gastritis</h3>
+                                    <h3 class="enfermedad">Conjuntivitis </h3>
                                 </div>
                                 <div class="invisible">
                                     <p>Tensión de los músculos alrededor de los labios, que a veces causa una mueca
@@ -261,10 +258,10 @@
                         <a href="../html/Neumonia-bebe.php">
                             <div class="box">
                                 <div class="img">
-                                    <img src="../multimedia/imagenes/Imagenes-enfermedades/adolescentes/varicela.jpg">
+                                    <img src="../multimedia/imagenes/Imagenes-enfermedades/ancianos/neumonia.jpg">
                                 </div>
                                 <div class="Neumonia">
-                                    <h3 class="enfermedad">Varicela</h3>
+                                    <h3 class="enfermedad">Neumonía</h3>
                                 </div>
                                 <div class="invisible">
                                     <p>Dolor en el pecho al respirar o toser</p>
@@ -282,10 +279,10 @@
                         <a href="../html/Dengue-bebe.php">
                             <div class="box">
                                 <div class="img">
-                                    <img src="../multimedia/imagenes/Imagenes-enfermedades/adolescentes/migraña.jpg">
+                                    <img src="../multimedia/imagenes/Imagenes-enfermedades/ancianos/hepatitis c.png">
                                 </div>
                                 <div class="Dengue">
-                                    <h3 class="enfermedad">Migraña</h3>
+                                    <h3 class="enfermedad">La hepatitis C </h3>
                                 </div>
                                 <div class="invisible">
                                     <p>Dolor de cabeza</p>
@@ -308,10 +305,10 @@
                         <a href="../html/Zika-beb.php">
                             <div class="box">
                                 <div class="img">
-                                    <img src="../multimedia/imagenes/Imagenes-enfermedades/adolescentes/asma.jpg">
+                                    <img src="../multimedia/imagenes/Imagenes-enfermedades/ancianos/hepa b.jpg">
                                 </div>
                                 <div class="Zika">
-                                    <h3 class="enfermedad">Asma</h3>
+                                    <h3 class="enfermedad">La hepatitis B</h3>
                                 </div>
                                 <div class="invisible">
                                     <p>Fiebre</p>
@@ -327,10 +324,10 @@
                         <a href="../html/Diarrea-bebes.php">
                             <div class="box">
                                 <div class="img">
-                                    <img src="../multimedia/imagenes/Imagenes-enfermedades/adolescentes/encias.jpg">
+                                    <img src="../multimedia/imagenes/Imagenes-enfermedades/ancianos/corona.jpg">
                                 </div>
                                 <div class="Diarrea">
-                                    <h3 class="enfermedad">Encías inflamadas</h3>
+                                    <h3 class="enfermedad">Coronavirus</h3>
                                 </div>
                                 <div class="invisible">
                                     <p>Hinchazón abdominal</p>
@@ -347,10 +344,10 @@
                         <a href="../html/Parásitos-bebes.php">
                             <div class="box">
                                 <div class="img">
-                                    <img src="../multimedia/imagenes/Imagenes-enfermedades/adolescentes/alergia.jpg">
+                                    <img src="../multimedia/imagenes/Imagenes-enfermedades/ancianos/omi.jpg">
                                 </div>
                                 <div class="Parásitos">
-                                    <h3 class="enfermedad">Alergia a la lactosa</h3>
+                                    <h3 class="enfermedad">Omicron (variante C-19)</h3>
                                 </div>
                                 <div class="invisible">
                                     <p>Picazón de la zona anal o vaginal</p>
@@ -364,10 +361,10 @@
                         <a href="../html/Gastroenteritis-bebe.php">
                             <div class="box">
                                 <div class="img">
-                                    <img src="../multimedia/imagenes/Imagenes-enfermedades/adolescentes/marisco.jpg">
+                                    <img src="../multimedia/imagenes/Imagenes-enfermedades/ancianos/gastritis.jpg">
                                 </div>
                                 <div class="Gastroenteritis">
-                                    <h3 class="enfermedad">Alergia a mariscos</h3>
+                                    <h3 class="enfermedad">Gastritis</h3>
                                 </div>
                                 <div class="invisible">
                                     <p>Fiebre</p>
@@ -386,10 +383,10 @@
                         <a href="../html/Otitis-bebes.php">
                             <div class="box">
                                 <div class="img">
-                                    <img src="../multimedia/imagenes/Imagenes-enfermedades/adolescentes/frutos.jpg">
+                                    <img src="../multimedia/imagenes/Imagenes-enfermedades/ancianos/ansiedad.jpg">
                                 </div>
                                 <div class="Otitis">
-                                    <h3 class="enfermedad">Alergia a frutos secos</h3>
+                                    <h3 class="enfermedad">Ansiedad</h3>
                                 </div>
                                 <div class="invisible">
                                     <p>Dolor de oído</p>
@@ -408,10 +405,10 @@
                         <a href="../html/BotulismoInfantil-bebe.php">
                             <div class="box">
                                 <div class="img">
-                                    <img src="../multimedia/imagenes/Imagenes-enfermedades/adolescentes/urti.jpg">
+                                    <img src="../multimedia/imagenes/Imagenes-enfermedades/ancianos/depre.jpg">
                                 </div>
                                 <div class="botulismoinfantil">
-                                    <h3 class="enfermedad">Urticaria</h3>
+                                    <h3 class="enfermedad">Depresión</h3>
                                 </div>
                                 <div class="invisible">
                                     <p>Estreñimiento</p>
@@ -429,10 +426,10 @@
                         <a href="../html/Tiña-bebe.php">
                             <div class="box">
                                 <div class="img">
-                                    <img src="../multimedia/imagenes/Imagenes-enfermedades/adolescentes/corona.jpg">
+                                    <img src="../multimedia/imagenes/Imagenes-enfermedades/ancianos/mono.jpg">
                                 </div>
                                 <div class="Tiña">
-                                    <h3 class="enfermedad">Coronavirus</h3>
+                                    <h3 class="enfermedad">Viruela del mono</h3>
                                 </div>
                                 <div class="invisible">
                                     <p>Anillos de expansión ligeramente elevados</p>
@@ -441,28 +438,6 @@
                                 </div>
                             </div>
                         </a>
-
-                        <a href="../html/ViruelaMono-bebe.php">
-                            <div class="box">
-                                <div class="img">
-                                    <img src="../multimedia/imagenes/Imagenes-enfermedades/adolescentes/viruela.jpg">
-                                </div>
-                                <div class="virueladelmono">
-                                    <h3 class="enfermedad">Viruela del mono</h3>
-                                </div>
-                                <div class="invisible">
-                                    <p>Fiebre</p>
-                                    <p>Escalofríos y temblores</p>
-                                    <p>Dolores musculares, óseos o articulares</p>
-                                    <p>Dolor de cabeza</p>
-                                    <p>Ganglios linfáticos inflamados</p>
-                                    <p>Fatiga</p>
-                                    <p>Dolor o sensación de picazón en la garganta</p>
-                                    <p>Tos</p>
-                                </div>
-                            </div>
-                        </a>
-
                     </div>
                 </div>
                 <article class="box_article">
@@ -697,10 +672,11 @@
                         <a href="../html/varicela.php">
                             <div class="box">
                                 <div class="img">
-                                    <img src="../multimedia/imagenes/Imagenes-enfermedades/adolescentes/acne.jpg">
+                                    <img src="../multimedia/imagenes/Imagenes-enfermedades/ancianos/infarto.jpg">
                                 </div>
                                 <div class="Varicela">
-                                    <h3 class="enfermedad">Acne
+                                    <h3 class="enfermedad">
+                                        Heart attack
                                     </h3>
                                 </div>
                                 <div class="invisible">
@@ -720,11 +696,11 @@
                         <a href="../html/meningitis.php">
                             <div class="box">
                                 <div class="img">
-                                    <img src="../multimedia/imagenes/Imagenes-enfermedades/adolescentes/otitis.jpg">
+                                    <img src="../multimedia/imagenes/Imagenes-enfermedades/ancianos/artritis.jpg">
                                 </div>
                                 <div class="Meningitis">
                                     <h3 class="enfermedad">
-                                        Tub</h3>
+                                        Arthritis</h3>
                                 </div>
                                 <div class="invisible">
                                     <p>Fiebre</p>
@@ -745,10 +721,10 @@
                         <a href="../html/resfriado.php">
                             <div class="box">
                                 <div class="img">
-                                    <img src="../multimedia/imagenes/Imagenes-enfermedades/adolescentes/celiaquia.jpg">
+                                    <img src="../multimedia/imagenes/Imagenes-enfermedades/ancianos/hiper.jpg">
                                 </div>
                                 <div class="Resfriado">
-                                    <h3 class="enfermedad">Celiac Disease</h3>
+                                    <h3 class="enfermedad">Hypertension</h3>
                                 </div>
                                 <div class="invisible">
                                     <p>Congestión o goteo nasal</p>
@@ -769,11 +745,10 @@
                         <a href="../html/Conjuntivitis.php">
                             <div class="box">
                                 <div class="img">
-                                    <img
-                                        src="../multimedia/imagenes/Imagenes-enfermedades/adolescentes/andsiedad-blog.jpg">
+                                    <img src="../multimedia/imagenes/Imagenes-enfermedades/ancianos/ostre.jpg">
                                 </div>
                                 <div class="Conjuntivitis">
-                                    <h3 class="enfermedad">Anxiety</h3>
+                                    <h3 class="enfermedad">Osteoporosis</h3>
                                 </div>
                                 <div class="invisible">
                                     <p>Enrojecimiento en uno o ambos ojos</p>
@@ -788,11 +763,11 @@
                         <a href="../html/dolor.php">
                             <div class="box">
                                 <div class="img">
-                                    <img
-                                        src="../multimedia/imagenes/Imagenes-enfermedades/adolescentes/depresion-blog.jpg">
+                                    <img src="../multimedia/imagenes/Imagenes-enfermedades/ancianos/utiña.jpg">
                                 </div>
                                 <div class="dolorgarganta">
-                                    <h3 class="enfermedad">Depression</h3>
+                                    <h3 class="enfermedad">
+                                        Tub</h3>
                                 </div>
                                 <div class="invisible">
                                     <p>Dolor o sensación de picazón en la garganta</p>
@@ -811,10 +786,11 @@
                         <a href="../html/colicos.php">
                             <div class="box">
                                 <div class="img">
-                                    <img src="../multimedia/imagenes/Imagenes-enfermedades/adolescentes/dolor-pel.jpeg">
+                                    <img src="../multimedia/imagenes/Imagenes-enfermedades/ancianos/amig.jpg">
                                 </div>
                                 <div class="Colicos">
-                                    <h3 class="enfermedad">Pelvic pain</h3>
+                                    <h3 class="enfermedad">
+                                        Strep throat </h3>
                                 </div>
                                 <div class="invisible">
                                     <p>Llanto intenso que puede parecer más bien un grito o una expresión de dolor</p>
@@ -829,10 +805,10 @@
                         <a href="../html/vomito.php">
                             <div class="box">
                                 <div class="img">
-                                    <img src="../multimedia/imagenes/Imagenes-enfermedades/adolescentes/herpes.jpg">
+                                    <img src="../multimedia/imagenes/Imagenes-enfermedades/ancianos/tuber.jpg">
                                 </div>
                                 <div class="Vomito">
-                                    <h3 class="enfermedad">Herpes</h3>
+                                    <h3 class="enfermedad">Tuberculosis </h3>
                                 </div>
                                 <div class="invisible">
                                     <p>Perdida del Apetito</p>
@@ -844,11 +820,10 @@
                         <a href="../html/fiebre.php">
                             <div class="box">
                                 <div class="img">
-                                    <img
-                                        src="../multimedia/imagenes/Imagenes-enfermedades/adolescentes/intoxicacion.jpg">
+                                    <img src="../multimedia/imagenes/Imagenes-enfermedades/ancianos/infeccion.jpg">
                                 </div>
                                 <div class="Fiebre">
-                                    <h3 class="enfermedad">Food poisoning
+                                    <h3 class="enfermedad">Urinary infections
                                     </h3>
                                 </div>
                                 <div class="invisible">
@@ -866,10 +841,10 @@
                         <a href="../html/indigestion.php">
                             <div class="box">
                                 <div class="img">
-                                    <img src="../multimedia/imagenes/Imagenes-enfermedades/adolescentes/gripe.jpg">
+                                    <img src="../multimedia/imagenes/Imagenes-enfermedades/ancianos/meningitis.jpg">
                                 </div>
                                 <div class="Indigestion">
-                                    <h3 class="enfermedad">Flu</h3>
+                                    <h3 class="enfermedad">Meningitis</h3>
                                 </div>
                                 <div class="invisible">
                                     <p>Sentirse lleno rápidamente durante la comida</p>
@@ -885,10 +860,10 @@
                         <a href="../html/tetano.php">
                             <div class="box">
                                 <div class="img">
-                                    <img src="../multimedia/imagenes/Imagenes-enfermedades/adolescentes/gastri.jpg">
+                                    <img src="../multimedia/imagenes/Imagenes-enfermedades/ancianos/conjun.jpg">
                                 </div>
                                 <div class="Tetano">
-                                    <h3 class="enfermedad">Gastritis</h3>
+                                    <h3 class="enfermedad">Conjunctivitis</h3>
                                 </div>
                                 <div class="invisible">
                                     <p>Tensión de los músculos alrededor de los labios, que a veces causa una mueca
@@ -906,10 +881,11 @@
                         <a href="../html/Neumonia-bebe.php">
                             <div class="box">
                                 <div class="img">
-                                    <img src="../multimedia/imagenes/Imagenes-enfermedades/adolescentes/varicela.jpg">
+                                    <img src="../multimedia/imagenes/Imagenes-enfermedades/ancianos/neumonia.jpg">
                                 </div>
                                 <div class="Neumonia">
-                                    <h3 class="enfermedad">Chickenpox</h3>
+                                    <h3 class="enfermedad">
+                                        Pneumonia</h3>
                                 </div>
                                 <div class="invisible">
                                     <p>Dolor en el pecho al respirar o toser</p>
@@ -927,10 +903,10 @@
                         <a href="../html/Dengue-bebe.php">
                             <div class="box">
                                 <div class="img">
-                                    <img src="../multimedia/imagenes/Imagenes-enfermedades/adolescentes/migraña.jpg">
+                                    <img src="../multimedia/imagenes/Imagenes-enfermedades/ancianos/hepatitis c.png">
                                 </div>
                                 <div class="Dengue">
-                                    <h3 class="enfermedad">Migraine</h3>
+                                    <h3 class="enfermedad">Hepatitis C </h3>
                                 </div>
                                 <div class="invisible">
                                     <p>Dolor de cabeza</p>
@@ -953,10 +929,10 @@
                         <a href="../html/Zika-beb.php">
                             <div class="box">
                                 <div class="img">
-                                    <img src="../multimedia/imagenes/Imagenes-enfermedades/adolescentes/asma.jpg">
+                                    <img src="../multimedia/imagenes/Imagenes-enfermedades/ancianos/hepa b.jpg">
                                 </div>
                                 <div class="Zika">
-                                    <h3 class="enfermedad">Asthma</h3>
+                                    <h3 class="enfermedad">Hepatitis B</h3>
                                 </div>
                                 <div class="invisible">
                                     <p>Fiebre</p>
@@ -972,10 +948,10 @@
                         <a href="../html/Diarrea-bebes.php">
                             <div class="box">
                                 <div class="img">
-                                    <img src="../multimedia/imagenes/Imagenes-enfermedades/adolescentes/encias.jpg">
+                                    <img src="../multimedia/imagenes/Imagenes-enfermedades/ancianos/corona.jpg">
                                 </div>
                                 <div class="Diarrea">
-                                    <h3 class="enfermedad">Swollen gums</h3>
+                                    <h3 class="enfermedad">Coronavirus</h3>
                                 </div>
                                 <div class="invisible">
                                     <p>Hinchazón abdominal</p>
@@ -992,10 +968,10 @@
                         <a href="../html/Parásitos-bebes.php">
                             <div class="box">
                                 <div class="img">
-                                    <img src="../multimedia/imagenes/Imagenes-enfermedades/adolescentes/alergia.jpg">
+                                    <img src="../multimedia/imagenes/Imagenes-enfermedades/ancianos/omi.jpg">
                                 </div>
                                 <div class="Parásitos">
-                                    <h3 class="enfermedad">lactose allergy</h3>
+                                    <h3 class="enfermedad">Omicron (C-19 variant)</h3>
                                 </div>
                                 <div class="invisible">
                                     <p>Picazón de la zona anal o vaginal</p>
@@ -1009,10 +985,10 @@
                         <a href="../html/Gastroenteritis-bebe.php">
                             <div class="box">
                                 <div class="img">
-                                    <img src="../multimedia/imagenes/Imagenes-enfermedades/adolescentes/marisco.jpg">
+                                    <img src="../multimedia/imagenes/Imagenes-enfermedades/ancianos/gastritis.jpg">
                                 </div>
                                 <div class="Gastroenteritis">
-                                    <h3 class="enfermedad">Shellfish allergy</h3>
+                                    <h3 class="enfermedad">Gastritis</h3>
                                 </div>
                                 <div class="invisible">
                                     <p>Fiebre</p>
@@ -1031,10 +1007,10 @@
                         <a href="../html/Otitis-bebes.php">
                             <div class="box">
                                 <div class="img">
-                                    <img src="../multimedia/imagenes/Imagenes-enfermedades/adolescentes/frutos.jpg">
+                                    <img src="../multimedia/imagenes/Imagenes-enfermedades/ancianos/ansiedad.jpg">
                                 </div>
                                 <div class="Otitis">
-                                    <h3 class="enfermedad">Allergy to nuts</h3>
+                                    <h3 class="enfermedad">Anxiety</h3>
                                 </div>
                                 <div class="invisible">
                                     <p>Dolor de oído</p>
@@ -1053,10 +1029,10 @@
                         <a href="../html/BotulismoInfantil-bebe.php">
                             <div class="box">
                                 <div class="img">
-                                    <img src="../multimedia/imagenes/Imagenes-enfermedades/adolescentes/urti.jpg">
+                                    <img src="../multimedia/imagenes/Imagenes-enfermedades/ancianos/depre.jpg">
                                 </div>
                                 <div class="botulismoinfantil">
-                                    <h3 class="enfermedad">Urticaria</h3>
+                                    <h3 class="enfermedad">Depression</h3>
                                 </div>
                                 <div class="invisible">
                                     <p>Estreñimiento</p>
@@ -1074,10 +1050,10 @@
                         <a href="../html/Tiña-bebe.php">
                             <div class="box">
                                 <div class="img">
-                                    <img src="../multimedia/imagenes/Imagenes-enfermedades/adolescentes/corona.jpg">
+                                    <img src="../multimedia/imagenes/Imagenes-enfermedades/ancianos/mono.jpg">
                                 </div>
                                 <div class="Tiña">
-                                    <h3 class="enfermedad">Coronavirus</h3>
+                                    <h3 class="enfermedad">Monkey pox</h3>
                                 </div>
                                 <div class="invisible">
                                     <p>Anillos de expansión ligeramente elevados</p>
@@ -1086,28 +1062,6 @@
                                 </div>
                             </div>
                         </a>
-
-                        <a href="../html/ViruelaMono-bebe.php">
-                            <div class="box">
-                                <div class="img">
-                                    <img src="../multimedia/imagenes/Imagenes-enfermedades/adolescentes/viruela.jpg">
-                                </div>
-                                <div class="virueladelmono">
-                                    <h3 class="enfermedad">Monkey pox</h3>
-                                </div>
-                                <div class="invisible">
-                                    <p>Fiebre</p>
-                                    <p>Escalofríos y temblores</p>
-                                    <p>Dolores musculares, óseos o articulares</p>
-                                    <p>Dolor de cabeza</p>
-                                    <p>Ganglios linfáticos inflamados</p>
-                                    <p>Fatiga</p>
-                                    <p>Dolor o sensación de picazón en la garganta</p>
-                                    <p>Tos</p>
-                                </div>
-                            </div>
-                        </a>
-
                     </div>
                 </div>
                 <article class="box_article">

@@ -13,83 +13,6 @@ body{
     height: 220vh;
 }
 
-.space2{
-    background-color: white;
-    height: 250vh;
-}
-
-.space3{
-    background-color: white;
-    height: 352vh;
-}
-
-.space4{
-    background-color: white;
-    height: 230vh;
-}
-
-.space5{
-    background-color: white;
-    height: 325vh;
-}
-
-.space6{
-    background-color: white;
-    height: 265vh;
-}
-
-.space7{
-    background-color: white;
-    height: 280vh;
-}
-
-.space8{
-    background-color: white;
-    height: 257vh;
-}
-
-.space9{
-    background-color: white;
-    height: 300vh;
-}
-
-.space10{
-    background-color: white;
-    height: 310vh;
-}
-
-.space11{
-    background-color: white;
-    height: 290vh;
-}
-
-.space12{
-    background-color: white;
-    height: 410vh;
-}
-
-.space13{
-    background-color: white;
-    height: 370vh;
-}
-
-.space14{
-    background-color: white;
-    height: 390vh;
-}
-
-.space15{
-    background-color: white;
-    height: 340vh;
-}
-
-.space16{
-    background-color: white;
-    height: 470vh;
-}
-
-
-
 .content{
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 30px;
@@ -140,14 +63,6 @@ body{
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-.info-causa li{
-    padding: 0 1.5rem 0 0 ;
-    margin-top: 5px;
-    font-size: 28px;
-    margin-left: 100px;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
-
 .sintoma p{
     margin-top: 40px;
     font-size: 45px;
@@ -183,4 +98,3 @@ body{
     margin-left: 100px;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-

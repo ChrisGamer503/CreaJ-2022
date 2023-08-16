@@ -13,7 +13,7 @@
 
 <body>
     <div class="spanish mostrarIdioma">
-        <div class="space8">
+        <div class="space7">
             <div class="info">
                 <p class="back"><a href="../html/sintomas-bebe.php"><img src="../multimedia/imagenes/flecha.png"></a>
                 </p>
@@ -27,10 +27,7 @@
                                 vivir en la tierra..
                             </p>
                             <p> Las bacterias fabrican una toxina (una sustancia química o veneno
-                                que daña al cuerpo). Esta toxina se adhiere a los nervios cercanos a la zona de la
-                                herida y viaja por el interior de los nervios hasta llegar al cerebro y la médula
-                                espinal.
-
+                                que daña al cuerpo). 
                             </p>
                         </div>
                         <div class="sepa2">
@@ -83,7 +80,7 @@
     </div>
 
     <div class="english">
-        <div class="space8">
+        <div class="space9">
             <div class="info">
                 <p class="back"><a href="../html/sintomas-bebe.php"><img src="../multimedia/imagenes/flecha.png"></a>
                 </p>
